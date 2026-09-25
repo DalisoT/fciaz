@@ -24,7 +24,12 @@ async function safeFetch<T>(
   try {
     return await fetcher();
   } catch (err) {
-    console.warn('[sanity] fetch failed, returning fallback:', err);
+    // Log only the error name + statusCode if available — never the full
+    // GROQ query or response body (could include unpublished draft content).
+    const e = err as { name?: string; statusCode?: number };
+    console.warn(
+      `[sanity] fetch failed: ${e.name ?? 'error'}${e.statusCode ? ` (${e.statusCode})` : ''}`,
+    );
     return fallback;
   }
 }

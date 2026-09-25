@@ -298,6 +298,49 @@ fciaz/
 
 ---
 
+## Security
+
+### What's covered
+
+| Layer | Protection |
+| --- | --- |
+| HTTP headers (`next.config.mjs`) | HSTS, X-Frame-Options: DENY, X-Content-Type-Options: nosniff, Referrer-Policy: strict-origin-when-cross-origin, Permissions-Policy (camera/mic/geo off), Content-Security-Policy with allowlist for Sanity/Supabase/Resend |
+| Powered-by header | Removed |
+| Forms | Zod-validated inputs, max-length enforced, email format checked, locale whitelist |
+| Server actions | IP-based rate limiting — newsletter 5/min, contact 3/min, volunteer 2/hr |
+| Error logging | Logs only the error name + status code; never the user-supplied input or full stack |
+| HTML in emails | All user-supplied text HTML-escaped before render |
+| Secrets | All in env vars; `.env.local` git-ignored; `.env.example` has placeholders only |
+| API tokens | Sanity token is **Viewer** scope (read-only); Supabase service-role key used only in server actions; Resend API key only in server actions |
+| Database | Supabase RLS policies (in `supabase/schema.sql`) restrict anon inserts to whitelisted columns |
+| Studio access | Sanity Studio at `/studio` is auth-gated by Sanity (email + password + project membership) |
+| CSRF | Next.js server actions have built-in origin checking |
+| XSS | No `dangerouslySetInnerHTML` anywhere; Portable Text renders structured JSON; all user input rendered as React children (auto-escaped) |
+| TLS | Vercel provisions HTTPS automatically on deploy |
+
+### Residual risks (documented)
+
+1. **`decompress` transitive dependency vulnerability (npm audit).** `decompress@4.2.1` (latest published version) has unmaintained CVEs (zip-slip, hardlink creation). It is only used by Sanity Studio CLI dev-time tooling — it never reaches the public site or the public build. The only fix is upgrading to `sanity@^6.6.0` which is a breaking change requiring migration of the schemas and Studio mount. Defer until next major Sanity upgrade.
+
+2. **`adm-zip` transitive dependency (npm audit, high severity).** Forced to `^0.5.16` via `package.json` resolutions. Three advisories; one is patched in 0.5.18, the others require newer-than-published versions. Same dev-time scope as `decompress`. Risk: requires authenticated Studio access + uploading a malicious zip to trigger.
+
+3. **Next.js 14.2.15 security advisory.** Known issue at this version. Upgrade path: pin to the latest 14.2.x patch release (no breaking changes). Defer to a coordinated upgrade with ZedPrep.
+
+4. **In-memory rate limiter** resets on serverless cold starts. For NGO traffic this is fine; swap for Upstash Redis when traffic grows.
+
+5. **No CAPTCHA on forms.** Rate limiting is the current mitigation. Add hCaptcha or Cloudflare Turnstile if spam increases.
+
+### Files where security lives
+
+- `next.config.mjs` — security headers
+- `src/lib/rateLimit.ts` — IP rate limiter
+- `src/app/actions/{newsletter,contact,volunteer}.ts` — validated + rate-limited server actions
+- `src/lib/sanity/{client,fetch}.ts` — sanitised error logging
+- `supabase/schema.sql` — RLS policies
+- `.env.example` — template with placeholders only
+
+---
+
 ## License
 
 © FCIAZ. All rights reserved. Code can be tailored to FCIAZ's needs.

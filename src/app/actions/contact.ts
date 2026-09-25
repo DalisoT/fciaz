@@ -1,6 +1,7 @@
 'use server';
 
 import { z } from 'zod';
+import { headers } from 'next/headers';
 import { getSupabaseAdmin } from '@/lib/supabase';
 import {
   getResendClient,
@@ -8,10 +9,11 @@ import {
   getResendToAddress,
 } from '@/lib/resend';
 import { routing } from '@/i18n/routing';
+import { rateLimit, clientKey } from '@/lib/rateLimit';
 
 const ContactSchema = z.object({
   name: z.string().trim().min(1).max(200),
-  email: z.string().trim().toLowerCase().email(),
+  email: z.string().trim().toLowerCase().email().max(254),
   subject: z.string().trim().max(300).optional().or(z.literal('')),
   message: z.string().trim().min(1).max(5000),
   locale: z.string().refine((v) => (routing.locales as readonly string[]).includes(v)),
@@ -19,17 +21,24 @@ const ContactSchema = z.object({
 
 export type ContactResult =
   | { ok: true }
-  | { ok: false; reason: 'invalid' | 'server' };
+  | { ok: false; reason: 'invalid' | 'rate-limited' | 'server' };
 
 export async function sendContactMessageAction(
   formData: FormData,
 ): Promise<ContactResult> {
+  // 3 per minute per IP — stricter than newsletter because contact emails the secretariat
+  const ip = clientKey(await headers());
+  const limit = rateLimit(`contact:${ip}`, 3, 60_000);
+  if (!limit.ok) {
+    return { ok: false, reason: 'rate-limited' };
+  }
+
   const raw = {
-    name: String(formData.get('name') ?? ''),
-    email: String(formData.get('email') ?? ''),
-    subject: String(formData.get('subject') ?? ''),
-    message: String(formData.get('message') ?? ''),
-    locale: String(formData.get('locale') ?? 'en'),
+    name: String(formData.get('name') ?? '').slice(0, 200),
+    email: String(formData.get('email') ?? '').slice(0, 320),
+    subject: String(formData.get('subject') ?? '').slice(0, 300),
+    message: String(formData.get('message') ?? '').slice(0, 5000),
+    locale: String(formData.get('locale') ?? 'en').slice(0, 8),
   };
 
   const parsed = ContactSchema.safeParse(raw);
@@ -50,11 +59,10 @@ export async function sendContactMessageAction(
       });
 
     if (dbError) {
-      console.error('Contact DB insert error:', dbError);
+      console.error('[contact] DB insert failed:', dbError.code ?? 'unknown');
       // Continue to try email even if DB fails
     }
 
-    // Try sending email — but don't block on email failure if at least DB worked
     let emailSent = false;
     try {
       const resend = getResendClient();
@@ -76,10 +84,9 @@ export async function sendContactMessageAction(
         `,
       });
       if (!emailError) emailSent = true;
-      else console.error('Contact email error:', emailError);
-    } catch (err) {
-      // No Resend configured — that's fine, DB insert is enough for audit
-      console.warn('Resend not configured for contact form:', err);
+      else console.error('[contact] email send failed:', emailError.name ?? 'error');
+    } catch {
+      // Resend not configured — DB insert is enough for audit
     }
 
     if (dbError && !emailSent) {
@@ -87,8 +94,8 @@ export async function sendContactMessageAction(
     }
 
     return { ok: true };
-  } catch (err) {
-    console.error('Contact unexpected error:', err);
+  } catch {
+    console.error('[contact] unexpected error');
     return { ok: false, reason: 'server' };
   }
 }
