@@ -11,6 +11,17 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+/**
+ * Viewport meta — must be exported separately from `metadata` in Next.js 14+.
+ * Sets the browser status-bar tint on mobile and on PWA launches.
+ */
+export const viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+    { media: '(prefers-color-scheme: dark)', color: '#240A6D' },
+  ],
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -43,10 +54,6 @@ export async function generateMetadata({
     description,
     applicationName: t('common.siteName'),
     manifest: '/site.webmanifest',
-    themeColor: [
-      { media: '(prefers-color-scheme: light)', color: '#ffffff' },
-      { media: '(prefers-color-scheme: dark)', color: '#240A6D' },
-    ],
     icons: {
       icon: [
         { url: '/favicon.ico', sizes: 'any' },
