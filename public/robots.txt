@@ -1,0 +1,6 @@
+# FCIAZ
+User-agent: *
+Allow: /
+
+# Localise the sitemap per locale.
+Sitemap: https://fciaz.org.zm/sitemap.xml

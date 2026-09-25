@@ -1,0 +1,390 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-900 antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  ::selection {
+    @apply bg-brand-800 text-white;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-semibold tracking-tight text-brand-900;
+  }
+
+  /* Honour reduced-motion at the root for all transitions/animations */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-narrow {
+    @apply mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-8;
+  }
+  .container-wide {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  /* ------- Buttons --------------------------------------------------- */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-2.5 text-sm font-medium
+           transition-all duration-200 ease-out
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2
+           disabled:opacity-50 disabled:pointer-events-none
+           active:translate-y-px;
+  }
+  .btn-primary {
+    @apply btn bg-brand-800 text-white shadow-md shadow-brand-900/20
+           hover:bg-brand-900 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-brand-900/30
+           focus-visible:ring-brand-500;
+  }
+  .btn-secondary {
+    @apply btn bg-white text-brand-900 border border-brand-800/70
+           hover:bg-brand-50 hover:border-brand-800 hover:-translate-y-0.5
+           hover:shadow-md focus-visible:ring-brand-500;
+  }
+  .btn-accent {
+    @apply btn bg-accent-400 text-brand-950 shadow-md shadow-accent-500/20
+           hover:bg-accent-500 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent-500/30
+           focus-visible:ring-accent-300;
+  }
+  .btn-ghost {
+    @apply btn text-brand-900 hover:bg-brand-50;
+  }
+
+  /* Animated right-arrow nudge inside .btn / link groups */
+  .btn .icon-arrow,
+  .arrow-link .icon-arrow {
+    @apply transition-transform duration-200 ease-out;
+  }
+  .btn:hover .icon-arrow,
+  .arrow-link:hover .icon-arrow {
+    @apply translate-x-1;
+  }
+
+  /* ------- Cards ---------------------------------------------------- */
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white p-6 shadow-sm;
+  }
+  /* default hover lift — use on tiles, news, resource cards, etc. */
+  .card-hover {
+    @apply transition-all duration-300 ease-out
+           hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-900/10
+           hover:border-brand-200;
+  }
+  /* glass card — translucency that benefits from mesh backgrounds */
+  .glass-card {
+    @apply rounded-xl border border-white/70 bg-white/70 p-6
+           shadow-lg shadow-brand-900/5 backdrop-blur-md
+           transition-all duration-300 ease-out
+           hover:-translate-y-1 hover:bg-white/90 hover:shadow-xl hover:shadow-brand-900/10;
+  }
+  /* premium feature card — tilt & glow on hover */
+  .card-feature {
+    @apply relative overflow-hidden rounded-2xl border border-white/60
+           bg-gradient-to-br from-white/85 via-white/70 to-white/55
+           p-6 backdrop-blur-md shadow-md shadow-brand-900/5
+           transition-all duration-500 ease-out
+           hover:-translate-y-2 hover:shadow-2xl hover:shadow-brand-900/15
+           hover:from-white/95 hover:via-white/85 hover:to-white/75;
+  }
+  .card-feature::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(36,10,109,.0), rgba(36,10,109,.0));
+    -webkit-mask:
+      linear-gradient(#000, #000) content-box,
+      linear-gradient(#000, #000);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    transition: background 500ms ease-out;
+  }
+  .card-feature:hover::before {
+    background: linear-gradient(135deg, rgba(36,10,109,.55), rgba(196,5,145,.45));
+  }
+
+  /* ------- PillarCard icon micro-interaction ----------------------- */
+  .pillar-tile .pillar-icon {
+    @apply transition-all duration-300 ease-out;
+  }
+  .pillar-tile:hover .pillar-icon {
+    @apply scale-110 rotate-3;
+  }
+
+  /* ------- Form atoms ---------------------------------------------- */
+  .input {
+    @apply w-full rounded-md border border-slate-300 bg-white px-3.5 py-2.5 text-sm text-slate-900
+           shadow-sm placeholder:text-slate-400
+           transition-all duration-200
+           hover:border-slate-400
+           focus:border-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-200;
+  }
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-slate-800;
+  }
+
+  /* ------- Misc ----------------------------------------------------- */
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1 text-xs font-medium
+           text-brand-800 ring-1 ring-inset ring-brand-200
+           transition-colors duration-200;
+  }
+
+  .link {
+    @apply text-brand-800 underline-offset-4 transition-colors duration-150
+           hover:text-brand-900 hover:underline;
+  }
+  /* Animated underline that wipes from left on hover */
+  .link-underline {
+    @apply relative inline-flex items-center gap-1 text-brand-800
+           transition-colors duration-200 hover:text-brand-900;
+  }
+  .link-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: currentColor;
+    transition: width 250ms ease-out;
+  }
+  .link-underline:hover::after {
+    width: 100%;
+  }
+
+  /* ------- Image hovers -------------------------------------------- */
+  .zoom-on-hover {
+    @apply overflow-hidden;
+  }
+  .zoom-on-hover > img,
+  .zoom-on-hover .zoom-target {
+    @apply transition-transform duration-500 ease-out;
+  }
+  .zoom-on-hover:hover > img,
+  .zoom-on-hover:hover .zoom-target {
+    @apply scale-105;
+  }
+}
+
+/* -------------------------------------------------------------------------
+ *  Modern background system — layered mesh gradients, soft animations,
+ *  and subtle patterns tied to the FCIAZ brand palette.
+ * ------------------------------------------------------------------------- */
+
+@keyframes aurora-drift-a {
+  0%, 100% { transform: translate3d(-2%, -1%, 0) scale(1);    }
+  50%      { transform: translate3d(3%,  2%, 0) scale(1.06); }
+}
+@keyframes aurora-drift-b {
+  0%, 100% { transform: translate3d(2%, 1%, 0)   scale(1.02); }
+  50%      { transform: translate3d(-3%,-2%, 0)  scale(1);    }
+}
+@keyframes aurora-drift-c {
+  0%, 100% { transform: translate3d(0,   0,  0)   scale(1);    }
+  50%      { transform: translate3d(2%, -3%, 0)   scale(1.04); }
+}
+.animate-aurora-a { animation: aurora-drift-a 22s ease-in-out infinite; }
+.animate-aurora-b { animation: aurora-drift-b 28s ease-in-out infinite; }
+.animate-aurora-c { animation: aurora-drift-c 34s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-aurora-a,
+  .animate-aurora-b,
+  .animate-aurora-c {
+    animation: none;
+  }
+}
+
+/* Hero mesh + floating blobs */
+.bg-hero-fciaz {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(at 12% 8%,  rgba(183, 150, 232, 0.45), transparent 55%),
+    radial-gradient(at 88% 4%,  rgba(196,  5, 145, 0.32), transparent 55%),
+    radial-gradient(at 95% 95%, rgba( 26, 107, 123, 0.45), transparent 55%),
+    radial-gradient(at  5% 95%, rgba( 36,  10, 109, 0.28), transparent 60%),
+    linear-gradient(180deg, #ffffff 0%, #f7f3fb 100%);
+}
+.bg-hero-fciaz::before,
+.bg-hero-fciaz::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 60vmax;
+  height: 60vmax;
+  border-radius: 9999px;
+  filter: blur(80px);
+  opacity: 0.55;
+  pointer-events: none;
+  will-change: transform;
+}
+.bg-hero-fciaz::before {
+  top: -25vmax;
+  left: -15vmax;
+  background: radial-gradient(circle, rgba(103,  54, 205, 0.55), transparent 65%);
+  animation: aurora-drift-a 22s ease-in-out infinite;
+}
+.bg-hero-fciaz::after {
+  bottom: -30vmax;
+  right: -20vmax;
+  background: radial-gradient(circle, rgba( 26, 107, 123, 0.45), transparent 65%);
+  animation: aurora-drift-b 28s ease-in-out infinite;
+}
+.bg-hero-fciaz .blob-c {
+  position: absolute;
+  z-index: -1;
+  top: 30%;
+  right: 10%;
+  width: 40vmax;
+  height: 40vmax;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(196, 5, 145, 0.32), transparent 65%);
+  filter: blur(80px);
+  animation: aurora-drift-c 34s ease-in-out infinite;
+  pointer-events: none;
+  will-change: transform;
+}
+
+/* Section backgrounds — soft mesh variants */
+.bg-mesh-warm {
+  background:
+    radial-gradient(at 100% 0%,  rgba( 26, 107, 123, 0.16), transparent 55%),
+    radial-gradient(at   0% 100%, rgba(103,  54, 205, 0.16), transparent 55%),
+    linear-gradient(180deg, #fbfaff 0%, #f7f3fb 100%);
+}
+.bg-mesh-cool {
+  background:
+    radial-gradient(at   0% 0%,  rgba( 36,  10, 109, 0.10), transparent 55%),
+    radial-gradient(at 100% 100%, rgba( 26, 107, 123, 0.14), transparent 55%),
+    linear-gradient(180deg, #ffffff 0%, #f6fbfb 100%);
+}
+.bg-mesh-rose {
+  background:
+    radial-gradient(at 50% 0%,  rgba(196, 5, 145, 0.18), transparent 55%),
+    radial-gradient(at   0% 100%, rgba(183, 150, 232, 0.16), transparent 55%),
+    linear-gradient(180deg, #ffffff 0%, #fdf5f8 100%);
+}
+.bg-mesh-lavender {
+  background:
+    radial-gradient(at 100% 0%, rgba(183, 150, 232, 0.30), transparent 55%),
+    radial-gradient(at 0% 100%, rgba(36, 10, 109, 0.18),    transparent 55%),
+    linear-gradient(180deg, #fbfaff 0%, #f7f3fb 100%);
+}
+
+/* Subtle dot grid for separator / quiet sections */
+.bg-dots {
+  background-image: radial-gradient(circle, rgba(15, 76, 92, 0.18) 1px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+.bg-dots-light {
+  background-image: radial-gradient(circle, rgba(15, 76, 92, 0.10) 1px, transparent 1.5px);
+  background-size: 28px 28px;
+}
+
+/* Wave divider */
+.wave-divider svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Deep CTA banner */
+.bg-cta-deep {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(at 0% 0%,   rgba(196, 5, 145, 0.50), transparent 50%),
+    radial-gradient(at 100% 100%, rgba(26, 107, 123, 0.55), transparent 50%),
+    linear-gradient(135deg, #240A6D 0%, #1c0854 100%);
+}
+.bg-cta-deep::before,
+.bg-cta-deep::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 9999px;
+  filter: blur(70px);
+  pointer-events: none;
+  opacity: 0.55;
+  will-change: transform;
+}
+.bg-cta-deep::before {
+  width: 36vmax;
+  height: 36vmax;
+  top: -12vmax;
+  right: -10vmax;
+  background: radial-gradient(circle, rgba(196, 5, 145, 0.60), transparent 65%);
+  animation: aurora-drift-a 26s ease-in-out infinite;
+}
+.bg-cta-deep::after {
+  width: 30vmax;
+  height: 30vmax;
+  bottom: -12vmax;
+  left: -8vmax;
+  background: radial-gradient(circle, rgba(26, 107, 123, 0.65), transparent 65%);
+  animation: aurora-drift-b 32s ease-in-out infinite;
+}
+
+/* Icon ring + hover for stakeholder / board / news cards */
+.icon-tile-sm {
+  @apply inline-flex h-11 w-11 items-center justify-center rounded-lg ring-1 ring-inset;
+  transition: transform 400ms cubic-bezier(.2,.8,.2,1), background 250ms ease-out;
+}
+.group:hover .icon-tile-sm {
+  transform: scale(1.10) rotate(-4deg);
+}
+.group:hover .icon-tile-sm.icon-tile-tilt-right {
+  transform: scale(1.10) rotate(4deg);
+}
+
+/* Avatar initial disc — scale and colour shift on parent hover */
+.avatar-disc {
+  @apply flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-800
+         ring-1 ring-brand-200 transition-all duration-300 ease-out;
+}
+.group:hover .avatar-disc {
+  @apply scale-105 bg-brand-100 ring-brand-300;
+}
+
+/* Download icon slide-in for resource cards */
+.resource-tile .resource-cta {
+  @apply transition-all duration-300 ease-out;
+}
+.resource-tile:hover .resource-cta {
+  @apply translate-x-1;
+}
+
+/* News date badge — colour shift on card hover */
+.news-tile .news-date {
+  @apply transition-colors duration-300;
+}
+.news-tile:hover .news-date {
+  color: rgb(196 5 145); /* rose-500 */
+}

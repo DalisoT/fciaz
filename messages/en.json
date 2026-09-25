@@ -1,0 +1,426 @@
+{
+  "common": {
+    "siteName": "FCIAZ",
+    "siteFullName": "Fistula and Childbirth Injuries Association of Zambia",
+    "tagline": "Advocacy. Treatment. Reintegration.",
+    "skipToContent": "Skip to main content",
+    "loading": "Loading…",
+    "language": "Language",
+    "back": "Back",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "send": "Send",
+    "download": "Download",
+    "openExternal": "Opens in a new tab",
+    "comingSoon": "Coming soon"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "whatWeDo": "What We Do",
+    "stakeholders": "Stakeholders",
+    "getInvolved": "Get Involved",
+    "donate": "Donate",
+    "resources": "Resources",
+    "news": "News",
+    "events": "Events",
+    "contact": "Contact",
+    "volunteer": "Volunteer",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "quickLinks": "Quick links",
+    "contactUs": "Contact",
+    "followUs": "Follow us",
+    "newsletterHeading": "Stay informed",
+    "newsletterDescription": "Receive updates on FCIAZ programmes, awareness campaigns, and ways to support women across Zambia.",
+    "newsletterEmailPlaceholder": "your@email.com",
+    "newsletterSubmit": "Subscribe",
+    "newsletterSuccess": "Thank you for subscribing. Please check your inbox to confirm.",
+    "newsletterError": "Something went wrong. Please try again later.",
+    "newsletterInvalidEmail": "Please enter a valid email address.",
+    "newsletterAlreadySubscribed": "This email is already subscribed.",
+    "addressHeading": "Registered office",
+    "addressPlaceholder": "Lusaka, Zambia (registered office to be confirmed after PACRA registration)",
+    "socialFacebook": "Facebook",
+    "socialX": "X (Twitter)",
+    "socialLinkedIn": "LinkedIn",
+    "socialInstagram": "Instagram",
+    "socialYouTube": "YouTube"
+  },
+  "whatsapp": {
+    "label": "Chat with FCIAZ on WhatsApp",
+    "tooltip": "Chat with us"
+  },
+  "home": {
+    "heroEyebrow": "Fistula and Childbirth Injuries Association of Zambia",
+    "heroTitle": "Every woman deserves safe childbirth, timely treatment, dignity, and hope.",
+    "heroSubtitle": "FCIAZ is a national, non-partisan association working to eliminate preventable obstetric fistula and childbirth injuries through advocacy, treatment, reintegration, and research.",
+    "heroPrimaryCta": "Support our work",
+    "heroSecondaryCta": "Learn about fistula",
+    "statsTitle": "Our work in numbers",
+    "stat1Value": "3",
+    "stat1Label": "Core pillars — Advocacy, Treatment, Reintegration",
+    "stat2Value": "2026",
+    "stat2Label": "Founded by Zambian clinicians and public health leaders",
+    "stat3Value": "10",
+    "stat3Label": "Executive Committee members driving the mission",
+    "pillarsHeading": "What we do",
+    "pillarsSubheading": "Three interconnected programmes guide every FCIAZ activity.",
+    "pillarAdvocacyTitle": "Advocacy",
+    "pillarAdvocacyDescription": "We raise awareness, influence policy, and engage communities, traditional leaders, churches, professional bodies, and government to make maternal health a national priority.",
+    "pillarTreatmentTitle": "Treatment",
+    "pillarTreatmentDescription": "We connect women to quality surgical repair, support teaching hospitals, and work with clinicians to expand access to timely, dignified care.",
+    "pillarIntegrationTitle": "Reintegration",
+    "pillarIntegrationDescription": "We champion reintegration through physiotherapy, counselling, skills training, and peer support — restoring dignity and independence to survivors.",
+    "missionHeading": "Our mission",
+    "missionBody": "To become Zambia's leading voice in eliminating preventable obstetric fistula and childbirth injuries through advocacy, partnerships, education, quality treatment, reintegration, and research.",
+    "visionHeading": "Our vision",
+    "visionBody": "A Zambia where no woman suffers preventable injury from childbirth, and every survivor receives the care, dignity, and opportunity she deserves.",
+    "boardSnapshotHeading": "Executive Committee",
+    "boardSnapshotSubheading": "Clinicians and public health leaders guiding FCIAZ.",
+    "boardSnapshotCta": "Meet the full committee",
+    "ctaHeading": "Stand with women across Zambia",
+    "ctaBody": "Whether you donate, volunteer, partner, or simply share our message — you help restore dignity and hope to survivors.",
+    "ctaPrimaryButton": "Donate now",
+    "ctaSecondaryButton": "Become a volunteer"
+  },
+  "about": {
+    "title": "About FCIAZ",
+    "subtitle": "A national association born from a clear conviction: no woman in Zambia should lose her dignity to a preventable childbirth injury.",
+    "historyHeading": "How we began",
+    "historyBody": "FCIAZ was founded in 2026 by a group of Zambian clinicians, surgeons, and public health leaders who saw that obstetric fistula and related childbirth injuries — though preventable and treatable — continued to affect thousands of women, often in silence. The association was created to give the issue a national voice, and to coordinate the actors best placed to respond: government, professional societies, teaching hospitals, cooperating partners, civil society, and affected communities themselves.",
+    "missionHeading": "Our mission",
+    "missionBody": "To become Zambia's leading voice in eliminating preventable obstetric fistula and childbirth injuries through advocacy, partnerships, education, quality treatment, reintegration, and research.",
+    "visionHeading": "Our vision",
+    "visionBody": "A Zambia where no woman suffers preventable injury from childbirth, and every survivor receives the care, dignity, and opportunity she deserves.",
+    "valuesHeading": "What we stand for",
+    "valuesSubheading": "Five principles guide every FCIAZ decision.",
+    "valueDignityTitle": "Dignity",
+    "valueDignityDescription": "We centre the voices, choices, and privacy of survivors in everything we do.",
+    "valueIntegrityTitle": "Integrity",
+    "valueIntegrityDescription": "Transparent governance, accountable use of resources, and honest partnerships.",
+    "valueEquityTitle": "Equity",
+    "valueEquityDescription": "Reaching women in rural and underserved areas, regardless of background or ability to pay.",
+    "valueEvidenceTitle": "Evidence",
+    "valueEvidenceDescription": "Programmes grounded in clinical practice, public health research, and what works.",
+    "valuePartnershipTitle": "Partnership",
+    "valuePartnershipDescription": "We work with — not alongside — government, professional bodies, and communities.",
+    "boardHeading": "Executive Committee",
+    "boardSubheading": "Elected members guiding FCIAZ during its foundational year.",
+    "memberRoleChair": "Chairperson",
+    "memberRoleVice": "Vice Chairperson",
+    "memberRoleSecretaryGeneral": "Secretary General",
+    "memberRolePublicity": "Publicity Secretary",
+    "memberRoleTreasurer": "Treasurer",
+    "memberRoleCommittee": "Committee Member",
+    "registrationHeading": "Legal status",
+    "registrationBody": "FCIAZ is being registered under the NGO Act of Zambia. Registration with the Registrar of Societies, the Zambia Revenue Authority (ZRA), and PACRA is in progress. Once complete, the association will operate the official bank account through which all donations and grants will be received.",
+    "registrationPending": "Registration in progress"
+  },
+  "board": {
+    "kasandaName": "Dr. Goshon Kasanda",
+    "kasandaBio": "Chairperson. Public health physician with extensive experience in maternal health programming across Zambia.",
+    "kaundaName": "Dr. Eugine Kaunda",
+    "kaundaBio": "Secretary General. Leads governance, board selection, and the registration roadmap for FCIAZ.",
+    "temboName": "Dr. Lucas Tembo",
+    "temboBio": "Publicity Secretary. Drives branding, communications, stakeholder engagement, and the FCIAZ public presence.",
+    "kawimbeName": "Dr. Alexander Kawimbe",
+    "kawimbeBio": "Committee Member. Brings clinical perspective on childbirth injury management and surgical training.",
+    "zuluName": "Dr. Paul Zulu",
+    "zuluBio": "Committee Member. Contributes community health and traditional leader engagement expertise.",
+    "silwimbaName": "Dr. Willies Silwimba",
+    "silwimbaBio": "Committee Member.",
+    "sichalweName": "Dr. Ngao Sichalwe",
+    "sichalweBio": "Committee Member.",
+    "muwemeName": "Ms Natalia Muweme",
+    "muwemeBio": "Committee Member.",
+    "ngosaName": "Dr. Chanda Ngosa",
+    "ngosaBio": "Committee Member.",
+    "nondeName": "Dr. Royd Nonde",
+    "nondeBio": "Committee Member."
+  },
+  "whatWeDo": {
+    "title": "What we do",
+    "subtitle": "FCIAZ works across three interconnected programmes. Each one is needed — none alone is sufficient.",
+    "advocacyTitle": "Advocacy",
+    "advocacyTagline": "Making maternal health a national priority.",
+    "advocacyBody": "We engage government, media, professional bodies, traditional leaders, churches, and civil society to keep obstetric fistula and childbirth injuries on Zambia's health agenda.",
+    "advocacyPoint1": "National awareness campaigns aligned with key dates such as the International Day to End Obstetric Fistula (23 May).",
+    "advocacyPoint2": "Stakeholder courtesy visits to the Ministry of Health, teaching hospitals, OGSZ, the Medical and Nursing Councils, and cooperating partners.",
+    "advocacyPoint3": "Evidence-based policy briefs, press releases, and a national media kit.",
+    "advocacyPoint4": "Community sensitisation with traditional leaders, churches, and women's groups.",
+    "treatmentTitle": "Treatment",
+    "treatmentTagline": "Connecting women to quality, dignified care.",
+    "treatmentBody": "We work alongside clinicians and teaching hospitals to expand access to timely surgical repair and post-operative care.",
+    "treatmentPoint1": "Referral pathways linking survivors to fistula repair services at UTH Women and Newborn Hospital and partner centres.",
+    "treatmentPoint2": "Clinical training, mentorship, and continuous professional development for surgeons, nurses, and anaesthetists.",
+    "treatmentPoint3": "Quality assurance, audits, and patient outcome monitoring.",
+    "treatmentPoint4": "Equipping treatment centres with consumables, instruments, and supplies.",
+    "integrationTitle": "Reintegration",
+    "integrationTagline": "Restoring dignity, independence, and hope.",
+    "integrationBody": "Reintegration is the bridge from surgery back to a full life. We partner with physiotherapists, counsellors, and social workers to support reintegration.",
+    "integrationPoint1": "Physiotherapy and pelvic floor reintegration programmes.",
+    "integrationPoint2": "Psychosocial counselling for survivors and their families.",
+    "integrationPoint3": "Economic empowerment through skills training and micro-enterprise support.",
+    "integrationPoint4": "Peer support groups, including the Faces of Hope Campaign.",
+    "researchTitle": "Research",
+    "researchTagline": "Learning what works and sharing it.",
+    "researchBody": "We collaborate with universities and researchers to generate evidence on prevention, treatment outcomes, and survivor experiences in Zambia.",
+    "researchPoint1": "Partnerships with Levy Mwanawasa Medical University, UNZA, and Copperbelt University.",
+    "researchPoint2": "Annual scientific symposia and clinical updates.",
+    "researchPoint3": "Surveillance and outcome data shared with the Ministry of Health."
+  },
+  "stakeholders": {
+    "title": "Stakeholders & partners",
+    "subtitle": "FCIAZ works alongside government, professional bodies, development partners, academia, media, and community leaders.",
+    "governmentHeading": "Government",
+    "governmentIntro": "Public sector bodies responsible for maternal health policy and service delivery.",
+    "professionalHeading": "Professional bodies",
+    "professionalIntro": "Clinician and nurse regulatory and representative organisations.",
+    "donorsHeading": "Development partners",
+    "donorsIntro": "International and local partners supporting fistula and maternal health work.",
+    "academicHeading": "Academic institutions",
+    "academicIntro": "Universities contributing research, training, and clinical capacity.",
+    "mediaHeading": "Media",
+    "mediaIntro": "Media houses helping FCIAZ reach the Zambian public.",
+    "communityHeading": "Community",
+    "communityIntro": "Grassroots actors shaping attitudes and access at community level.",
+    "engagementHeading": "How to engage with us",
+    "engagementBody": "If your organisation works on maternal health, childbirth injury, or related issues and would like to collaborate, please contact the Publicity Secretary."
+  },
+  "stakeholdersList": {
+    "ministryOfHealth": {
+      "name": "Ministry of Health, Zambia"
+    },
+    "provincialHealth": {
+      "name": "Provincial Health Offices"
+    },
+    "uth": {
+      "name": "UTH Women and Newborn Hospital"
+    },
+    "ogsz": {
+      "name": "Obstetrical and Gynaecological Society of Zambia (OGSZ)"
+    },
+    "medicalCouncil": {
+      "name": "Medical Council of Zambia"
+    },
+    "nursingCouncil": {
+      "name": "General Nursing Council of Zambia"
+    },
+    "fistulaFoundation": {
+      "name": "Fistula Foundation"
+    },
+    "unfpa": {
+      "name": "UNFPA Zambia"
+    },
+    "who": {
+      "name": "World Health Organization (Zambia Office)"
+    },
+    "unicef": {
+      "name": "UNICEF Zambia"
+    },
+    "jhpiego": {
+      "name": "Jhpiego Zambia"
+    },
+    "lmmu": {
+      "name": "Levy Mwanawasa Medical University"
+    },
+    "unza": {
+      "name": "University of Zambia"
+    },
+    "cbu": {
+      "name": "Copperbelt University"
+    },
+    "znbc": {
+      "name": "ZNBC"
+    },
+    "muvi": {
+      "name": "Muvi TV"
+    },
+    "prime": {
+      "name": "Prime TV"
+    },
+    "diamond": {
+      "name": "Diamond TV"
+    },
+    "dailyMail": {
+      "name": "Daily Mail"
+    },
+    "timesOfZambia": {
+      "name": "Times of Zambia"
+    },
+    "traditionalLeaders": {
+      "name": "Traditional leaders (House of Chiefs)"
+    },
+    "churches": {
+      "name": "Churches and faith-based organisations"
+    },
+    "womensGroups": {
+      "name": "Women's groups and community-based organisations"
+    },
+    "chw": {
+      "name": "Community Health Workers"
+    }
+  },
+  "getInvolved": {
+    "title": "Get involved",
+    "subtitle": "There are many ways to support FCIAZ — at home, in your community, or through your organisation.",
+    "donateTitle": "Donate",
+    "donateBody": "Your contribution funds awareness campaigns, surgical supplies, training, and reintegration programmes for survivors.",
+    "donateCta": "See donation options",
+    "volunteerTitle": "Volunteer",
+    "volunteerBody": "Volunteers support events, translations, community outreach, photography, and professional services. Tell us your skills and availability.",
+    "volunteerCta": "Sign up to volunteer",
+    "partnerTitle": "Partner with us",
+    "partnerBody": "We welcome partnerships with NGOs, hospitals, professional bodies, universities, media houses, and corporate Zambia.",
+    "partnerCta": "Contact us",
+    "advocateTitle": "Become an advocate",
+    "advocateBody": "Share our content on social media, host a community talk, or distribute educational materials in your network.",
+    "advocateCta": "View resources",
+    "campaignsHeading": "Featured campaigns",
+    "campaignFacesTitle": "Faces of Hope",
+    "campaignFacesBody": "Restoring dignity to women living with fistula through survivor stories (with informed consent), educational videos, myth-busting facts, and reintegration success stories.",
+    "campaignDayTitle": "International Day to End Obstetric Fistula — 23 May",
+    "campaignDayBody": "Each year on 23 May, FCIAZ joins the global community in raising awareness. Watch this space for events, school outreach, and media coverage."
+  },
+  "donate": {
+    "title": "Donate to FCIAZ",
+    "subtitle": "Every contribution — large or small — strengthens our ability to support women across Zambia. All donations are receipted and acknowledged.",
+    "sectionBankHeading": "Bank transfer",
+    "sectionBankBody": "Use the details below to deposit directly into the FCIAZ bank account. Please email a copy of the deposit slip to {email} so we can acknowledge your gift.",
+    "bankNameLabel": "Bank",
+    "bankAccountNameLabel": "Account name",
+    "bankAccountNumberLabel": "Account number",
+    "bankBranchLabel": "Branch",
+    "bankSwiftLabel": "SWIFT / BIC",
+    "sectionMobileHeading": "Mobile money",
+    "sectionMobileBody": "Send mobile money directly to FCIAZ. After sending, please share the transaction reference with us.",
+    "mtnNameLabel": "MTN MoMo merchant",
+    "mtnNumberLabel": "MTN MoMo number",
+    "mtnStepsHeading": "How to send via MTN MoMo",
+    "mtnStep1": "Dial *303# (or *165#) on your MTN line, or open the MoMo app.",
+    "mtnStep2": "Choose 'Send Money' or 'Pay Bill'.",
+    "mtnStep3": "Enter the FCIAZ MoMo number above.",
+    "mtnStep4": "Enter the amount and confirm with your PIN.",
+    "mtnStep5": "Screenshot the confirmation SMS and email it to {email}.",
+    "airtelNameLabel": "Airtel Money merchant",
+    "airtelNumberLabel": "Airtel Money number",
+    "airtelStepsHeading": "How to send via Airtel Money",
+    "airtelStep1": "Dial *115# on your Airtel line, or open the Airtel Money app.",
+    "airtelStep2": "Choose 'Send Money'.",
+    "airtelStep3": "Enter the FCIAZ Airtel Money number above.",
+    "airtelStep4": "Enter the amount and confirm with your PIN.",
+    "airtelStep5": "Screenshot the confirmation SMS and email it to {email}.",
+    "zamtelNameLabel": "Zamtel Money merchant",
+    "zamtelNumberLabel": "Zamtel Money number",
+    "zamtelStepsHeading": "How to send via Zamtel Money",
+    "zamtelStep1": "Dial the Zamtel Money USSD code on your Zamtel line, or open the Zamtel Money app.",
+    "zamtelStep2": "Choose 'Send Money'.",
+    "zamtelStep3": "Enter the FCIAZ Zamtel Money number above.",
+    "zamtelStep4": "Enter the amount and confirm with your PIN.",
+    "zamtelStep5": "Screenshot the confirmation SMS and email it to {email}.",
+    "sectionOtherHeading": "Other ways to give",
+    "otherInKind": "In-kind donations (medical supplies, equipment, printing)",
+    "otherLegacy": "Legacy and planned giving",
+    "otherCorporate": "Corporate partnerships and CSR",
+    "otherContact": "Contact us to discuss any of the above.",
+    "thankYouHeading": "Thank you",
+    "thankYouBody": "Your generosity sustains our work with women, families, and communities across Zambia. Together we can end preventable childbirth injuries.",
+    "transparencyHeading": "Transparency",
+    "transparencyBody": "FCIAZ is committed to transparent use of donations. Annual financial statements will be published once the association completes ZRA and PACRA registration and opens its official bank account."
+  },
+  "resources": {
+    "title": "Resources",
+    "subtitle": "Downloadable factsheets, posters, and media materials. Suitable for printing and community distribution.",
+    "comingSoonHeading": "Materials coming soon",
+    "comingSoonBody": "We are finalising our first set of official materials. Once approved by the Executive Committee, they will appear here for download.",
+    "mediaKitHeading": "Media kit",
+    "mediaKitBody": "Journalists and partner organisations can request our media kit (logo, brand colours, fact sheet, press release template) by emailing {email}.",
+    "categories": {
+      "factsheets": "Factsheets",
+      "posters": "Posters",
+      "media": "Media kit"
+    }
+  },
+  "news": {
+    "title": "News & updates",
+    "subtitle": "Highlights from FCIAZ programmes, awareness campaigns, and Executive Committee activities.",
+    "comingSoonHeading": "Latest stories coming soon",
+    "comingSoonBody": "We are preparing our first set of news stories. Subscribe to the newsletter to be notified when they are published.",
+    "subscribeCta": "Subscribe to newsletter",
+    "archiveHeading": "Past highlights",
+    "item1Title": "Second Executive Committee meeting held",
+    "item1Date": "2026-07-29",
+    "item1Excerpt": "The ExCo adopted the roadmap for ZRA, PACRA, and bank account opening, and resolved to begin the Fistula Foundation grant application immediately.",
+    "item2Title": "FCIAZ submits registration documents to the Registrar of Societies",
+    "item2Date": "2026-07-22",
+    "item2Excerpt": "Following initial feedback on NRC copies, certified copies were re-uploaded. Feedback from the Registrar is expected by end of week.",
+    "item3Title": "Founding of the Fistula and Childbirth Injuries Association of Zambia",
+    "item3Date": "2026-06-15",
+    "item3Excerpt": "A group of Zambian clinicians, surgeons, and public health leaders come together to create a national association dedicated to advocacy, treatment, and reintegration for women affected by obstetric fistula and childbirth injuries."
+  },
+  "contact": {
+    "title": "Contact FCIAZ",
+    "subtitle": "Reach the Secretariat, the Publicity Secretary, or the Executive Committee. We respond within five working days.",
+    "formHeading": "Send us a message",
+    "formName": "Full name",
+    "formEmail": "Email address",
+    "formSubject": "Subject",
+    "formSubjectPlaceholder": "e.g. Media enquiry, partnership, general question",
+    "formMessage": "Your message",
+    "formSubmit": "Send message",
+    "formSuccess": "Thank you — your message has been sent. We will reply within five working days.",
+    "formError": "We could not send your message right now. Please email us directly at {email}.",
+    "formValidationName": "Please enter your name.",
+    "formValidationEmail": "Please enter a valid email address.",
+    "formValidationMessage": "Please write a short message.",
+    "secretariatHeading": "Secretariat",
+    "secretariatBody": "For general enquiries, partnerships, and official correspondence.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "addressLabel": "Address",
+    "addressValue": "Lusaka, Zambia (registered office to be confirmed after PACRA registration)",
+    "socialHeading": "Connect with us",
+    "socialBody": "Follow our official channels for the latest updates, awareness materials, and event announcements."
+  },
+  "volunteer": {
+    "title": "Volunteer with FCIAZ",
+    "subtitle": "Share your skills, time, and passion. We will match you with an activity that fits your strengths and availability.",
+    "formName": "Full name",
+    "formEmail": "Email",
+    "formPhone": "Phone (with country code)",
+    "formLocation": "City / Town",
+    "formSkills": "Skills and experience",
+    "formSkillsPlaceholder": "e.g. clinical, communications, translation, photography, fundraising, community mobilisation",
+    "formAvailability": "Availability",
+    "formAvailabilityPlaceholder": "e.g. weekends, a few hours per week, specific dates",
+    "formMessage": "Anything else you'd like us to know?",
+    "formMessagePlaceholder": "Optional",
+    "formSubmit": "Submit application",
+    "formSuccess": "Thank you for applying. We will be in touch within ten working days.",
+    "formError": "We could not submit your application right now. Please email {email} instead.",
+    "formValidationName": "Please enter your name.",
+    "formValidationEmail": "Please enter a valid email address.",
+    "whatHeading": "What volunteers do",
+    "whatPoint1": "Support events, awareness walks, and outreach sessions",
+    "whatPoint2": "Translate materials into local languages",
+    "whatPoint3": "Photograph and document activities",
+    "whatPoint4": "Provide professional services (clinical, legal, communications, design)",
+    "whatPoint5": "Help with fundraising, grant writing, and partner engagement"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or has been moved.",
+    "cta": "Return home"
+  },
+  "languageSwitcher": {
+    "label": "Choose language",
+    "current": "Current language: {locale}"
+  }
+}

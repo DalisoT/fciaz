@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#240A6D"/>
+      <stop offset="100%" stop-color="#170441"/>
+    </linearGradient>
+    <radialGradient id="halo-pink" cx="0.85" cy="0.15" r="0.55">
+      <stop offset="0%" stop-color="#C40591" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#C40591" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo-teal" cx="0.10" cy="0.95" r="0.55">
+      <stop offset="0%" stop-color="#1A6B7B" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1A6B7B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#halo-pink)"/>
+  <rect width="1200" height="630" fill="url(#halo-teal)"/>
+
+  <!-- Stylised mother-and-child emblem mark using brand palette. -->
+  <g transform="translate(80,140)">
+    <!-- Mother silhouette -->
+    <circle cx="120" cy="60" r="42" fill="#6736CD"/>
+    <path d="M50 160 C 60 110, 80 100, 120 100 C 160 100, 180 110, 190 160 L 190 220 L 50 220 Z" fill="#6736CD"/>
+    <!-- Cradled child (lavender glow) -->
+    <circle cx="135" cy="155" r="22" fill="#C40591"/>
+    <!-- Cradle / hands -->
+    <path d="M40 220 C 70 200, 110 200, 135 200 C 160 200, 200 200, 230 220 L 230 240 L 40 240 Z" fill="#1A6B7B"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(380,0)" font-family="system-ui, -apple-system, sans-serif">
+    <text x="0" y="170" font-size="22" font-weight="700" letter-spacing="6"
+      fill="#C40591">FISTULA &amp; CHILDBIRTH INJURIES</text>
+    <text x="0" y="200" font-size="22" font-weight="700" letter-spacing="6"
+      fill="#C40591">ASSOCIATION OF ZAMBIA</text>
+
+    <text x="0" y="290" font-size="74" font-weight="800" letter-spacing="-1"
+      fill="#FFFFFF">Every woman deserves</text>
+    <text x="0" y="370" font-size="74" font-weight="800" letter-spacing="-1"
+      fill="#FFFFFF">safe childbirth,</text>
+    <text x="0" y="450" font-size="74" font-weight="800" letter-spacing="-1"
+      fill="#FFFFFF">dignity, and hope.</text>
+  </g>
+
+  <g transform="translate(80,560)" font-family="system-ui, -apple-system, sans-serif" fill="#FFFFFF" opacity="0.9">
+    <text x="0" y="0" font-size="20" font-weight="700" letter-spacing="3">
+      <tspan fill="#C40591">ADVOCACY</tspan>
+      <tspan> · </tspan>
+      <tspan fill="#C40591">TREATMENT</tspan>
+      <tspan> · </tspan>
+      <tspan fill="#1A6B7B">REINTEGRATION</tspan>
+    </text>
+    <text x="0" y="32" font-size="16" font-weight="400" opacity="0.7">fciaz.org.zm · info@fciaz.org.zm</text>
+  </g>
+</svg>

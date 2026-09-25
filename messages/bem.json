@@ -1,0 +1,432 @@
+{
+  "_meta": {
+    "language": "Icibemba",
+    "region": "Zambia — Northern, Muchinga, Luapula, Copperbelt",
+    "translator": "Draft translation (AI-assisted). Dr. Tembo to verify clinical and culturally-sensitive phrasing.",
+    "note": "Medical terms (fistula, obstetric, reintegration) are commonly retained in English in Bemba clinical practice. Where this file keeps English terms, the surrounding text is translated."
+  },
+  "common": {
+    "siteName": "FCIAZ",
+    "siteFullName": "Umukuni wa Fistula na Ifya Kupwisha pa Kufyalwa mu Zambia",
+    "tagline": "Ukutetekela. Imisangano. Ukuyambitsa.",
+    "skipToContent": "Iseni pa bukulu bwa content",
+    "loading": "Tulefwaya…",
+    "language": "Ululimi",
+    "back": "Bwelelemo",
+    "learnMore": "Sukulu umbweseni",
+    "readMore": "Sukulu amashiwi",
+    "viewAll": "Mweni fyonse",
+    "submit": "Tuma",
+    "sending": "Tule-tuma…",
+    "send": "Tuma",
+    "download": "Sengeni pa computer",
+    "openExternal": "Yakwaisa mu tabi ipya",
+    "comingSoon": "Ichaisa lubilo"
+  },
+  "nav": {
+    "home": "Kuntanshi",
+    "about": "Ifya kuli",
+    "whatWeDo": "Ifya tulecita",
+    "stakeholders": "Abasambi nabalundwe",
+    "getInvolved": "Pati mu citenipo",
+    "donate": "Pa money",
+    "resources": "Ifya kusomfya",
+    "news": "Amashiwi",
+    "events": "Imisangano",
+    "contact": "Imisango",
+    "volunteer": "Umutuntulu",
+    "openMenu": "Iseni ifwa menu",
+    "closeMenu": "Isaleni ifwa menu"
+  },
+  "footer": {
+    "rights": "Ifya kwingilamo fyonse yasungwa.",
+    "quickLinks": "Imisango yafwaifwa",
+    "contactUs": "Tumiseni",
+    "followUs": "Tulikontenipeni",
+    "newsletterHeading": "Kala mwalipati",
+    "newsletterDescription": "Amaseti ya ifya kupwaisha pa kufyalwa, awareness campaigns, na ifya kupatila mu Zambia.",
+    "newsletterEmailPlaceholder": "email@enu.com",
+    "newsletterSubmit": "Lemba pa newsletter",
+    "newsletterSuccess": "Natotela pa kulemba. Tafwaya kuli kuntanshi mu inbox yenu.",
+    "newsletterError": "Tatapwisha. Mwikaleko lubilo lumbi.",
+    "newsletterInvalidEmail": "Mwingishe email yenu pa lubilo.",
+    "newsletterAlreadySubscribed": "Email enu yali yaliko.",
+    "addressHeading": "Ofesi yatwishibikwa",
+    "addressPlaceholder": "Lusaka, Zambia (ofesi iyakwishibikwa pa PACRA)",
+    "socialFacebook": "Facebook",
+    "socialX": "X (Twitter)",
+    "socialLinkedIn": "LinkedIn",
+    "socialInstagram": "Instagram",
+    "socialYouTube": "YouTube"
+  },
+  "whatsapp": {
+    "label": "Lembeni ku FCIAZ pa WhatsApp",
+    "tooltip": "Tumiseni"
+  },
+  "home": {
+    "heroEyebrow": "Umukuni wa Fistula na Ifya Kupwisha pa Kufyalwa mu Zambia",
+    "heroTitle": "Umukashi bonse afwa kupwaisha pa kufyalwa, kubwino bwa lubilo, ukushingwa na uluse.",
+    "heroSubtitle": "FCIAZ ni umukuni wakwe, ucitapo sana pa kubomya ifya kupwaisha pa kufyalwa mu Zambia — pa kutetekela, imisangano, ukuyambitsa na ifya kupendulula.",
+    "heroPrimaryCta": "Tupatilepo",
+    "heroSecondaryCta": "Sukulu ifya fistula",
+    "statsTitle": "Ifya tulecitapo pa yaba",
+    "stat1Value": "3",
+    "stat1Label": "Mishinga — Ukutetekela, Imisangano, Ukuyambitsa",
+    "stat2Value": "2026",
+    "stat2Label": "Yapangwa na ba doctor ba Zambia na batungulwa ba mimoneke",
+    "stat3Value": "10",
+    "stat3Label": "Ba Executive Committee abacita pa lubilo lwa mission",
+    "pillarsHeading": "Ifya tulecita",
+    "pillarsSubheading": "Imisangano itatu icitika pa kwingilamo kwa FCIAZ.",
+    "pillarAdvocacyTitle": "Ukutetekela",
+    "pillarAdvocacyDescription": "Tulecitapo kuli balongolwa, ba church, balongolwa ba cicunucuno, na bafyashi kuti ukubomya kwa banakashi kukabe cintu cikalamba.",
+    "pillarTreatmentTitle": "Imisangano",
+    "pillarTreatmentDescription": "Tupatila abanakashi kuti bafikapo pa kubwino bwa fistula repair, tulepatila ba doctor mu cipatala, no kwingilamo ifyabwino ifi bakwata.",
+    "pillarIntegrationTitle": "Ukuyambitsa",
+    "pillarIntegrationDescription": "Tulepatila pa physiotherapy, counselling, na ifya kwingilamo pa kubwezelela abanamayo kubumi bwabwino.",
+    "missionHeading": "Ifya tulecita",
+    "missionBody": "Ukuba ilyashi likulu mu Zambia pa kubomya fistula na ifya kupwaisha pa kufyalwa — pa kutetekela, abalundwe, ifya kuyiisha, imisangano yabwino, ukuyambitsa na ifya kupendulula.",
+    "visionHeading": "Ifya tulefwaya",
+    "visionBody": "Zambia umo umukashi tafwa kupwaisha pa kufyalwa, kabili umukashi yense wafwa kubomya, ukushingwa, na ubumi bwabwino.",
+    "boardSnapshotHeading": "Ba Executive Committee",
+    "boardSnapshotSubheading": "Ba doctor na batungulwa ba FCIAZ.",
+    "boardSnapshotCta": "Baleti bonse",
+    "ctaHeading": "Imeni pamo na banakashi ba Zambia",
+    "ctaBody": "Nokutila mwatupa money, mwakaba abasambi, mwalembapo na balundwe, muli kutatukwasheni kucita pa banamayo.",
+    "ctaPrimaryButton": "Tupatilepo lelo",
+    "ctaSecondaryButton": "Ba abasambi"
+  },
+  "about": {
+    "title": "Ifya kuli kwa FCIAZ",
+    "subtitle": "Umukuni wa Zambia uwa kubomya fistula na ifya kupwaisha pa kufyalwa.",
+    "historyHeading": "Ifya tupangilemo",
+    "historyBody": "FCIAZ yapangwa mu 2026 na ba doctor ba Zambia, ba surgeon, na batungulwa ba mimoneke pa kuti fistula na ifya kupwaisha pa kufyalwa ifyalefwa kucitwa ku banakashi bafwa ifya kubomya ifya tabafwa. Umukuni uyu wapangwa kucita ilyashi pa Zambia yonse.",
+    "missionHeading": "Ifya tulecita",
+    "missionBody": "Ukuba ilyashi likulu mu Zambia pa kubomya fistula na ifya kupwaisha pa kufyalwa — pa kutetekela, abalundwe, ifya kuyiisha, imisangano yabwino, ukuyambitsa na ifya kupendulula.",
+    "visionHeading": "Ifya tulefwaya",
+    "visionBody": "Zambia umo umukashi tafwa kupwaisha pa kufyalwa, kabili umukashi yense wafwa kubomya, ukushingwa, na ubumi bwabwino.",
+    "valuesHeading": "Ifya tulemilila",
+    "valuesSubheading": "Ifya kushininkisha itaano ifya FCIAZ.",
+    "valueDignityTitle": "Ukushingwa",
+    "valueDignityDescription": "Tuleika pa lubilo ululashi lwa banamayo mu fyonse ifya tulecita.",
+    "valueIntegrityTitle": "Ukucita pa bwino",
+    "valueIntegrityDescription": "Ukucita ifya kwingilamo ifyabwino no kubomya ifya twafwa.",
+    "valueEquityTitle": "Ifya kulingana",
+    "valueEquityDescription": "Tufikapo ku banakashi ba mu malipoti, nokuba tabafwa money.",
+    "valueEvidenceTitle": "Ifya kuyiisha",
+    "valueEvidenceDescription": "Imisangano iyi shina mu fya ba doctor na fya kuyiisha.",
+    "valuePartnershipTitle": "Ukuba pamo",
+    "valuePartnershipDescription": "Tucita pamo na bafyashi, church, balongolwa ba mimoneke.",
+    "boardHeading": "Ba Executive Committee",
+    "boardSubheading": "Bamembala abasala FCIAZ.",
+    "memberRoleChair": "Mwine lubilo",
+    "memberRoleVice": "Mushika mwine lubilo",
+    "memberRoleSecretaryGeneral": "Secretary General",
+    "memberRolePublicity": "Publicity Secretary",
+    "memberRoleTreasurer": "Treasurer",
+    "memberRoleCommittee": "Membala wa komiti",
+    "registrationHeading": "Ifya pa mulandu",
+    "registrationBody": "FCIAZ iliko pa kusendama pa NGO Act ya Zambia. Ifya kusendama na Registrar, ZRA na PACRA iliko pa kubomya.",
+    "registrationPending": "Ifya kusendama iliko"
+  },
+  "board": {
+    "kasandaName": "Dr. Goshon Kasanda",
+    "kasandaBio": "Mwine lubilo. Doctor wa mimoneke wa banakashi mu Zambia.",
+    "kaundaName": "Dr. Eugine Kaunda",
+    "kaundaBio": "Secretary General. Alongolola ifya kusendama na komiti ya FCIAZ.",
+    "temboName": "Dr. Lucas Tembo",
+    "temboBio": "Publicity Secretary. Alongolola ifya kuyiisha, ukutetekela na ilyashi lya FCIAZ.",
+    "kawimbeName": "Dr. Alexander Kawimbe",
+    "kawimbeBio": "Membala wa komiti. Aletapo ifya kubomya pa kubingisha fistula.",
+    "zuluName": "Dr. Paul Zulu",
+    "zuluBio": "Membala wa komiti. Alongolola ifya kwingilamo pa bafyashi.",
+    "silwimbaName": "Dr. Willies Silwimba",
+    "silwimbaBio": "Membala wa komiti.",
+    "sichalweName": "Dr. Ngao Sichalwe",
+    "sichalweBio": "Membala wa komiti.",
+    "muwemeName": "Ms Natalia Muweme",
+    "muwemeBio": "Membala wa komiti.",
+    "ngosaName": "Dr. Chanda Ngosa",
+    "ngosaBio": "Membala wa komiti.",
+    "nondeName": "Dr. Royd Nonde",
+    "nondeBio": "Membala wa komiti."
+  },
+  "whatWeDo": {
+    "title": "Ifya tulecita",
+    "subtitle": "FCIAZ icita pa misango itatu. Yense yafwa.",
+    "advocacyTitle": "Ukutetekela",
+    "advocacyTagline": "Ifya kubomya ifwa kwingilamo kwa Zambia.",
+    "advocacyBody": "Tucita pamo na bafyashi, ba church, ba professional bodies, na government kuti fistula ikabe pa agenda ya Zambia.",
+    "advocacyPoint1": "Awareness campaigns pa lubilo lwa 23 May (International Day to End Obstetric Fistula).",
+    "advocacyPoint2": "Ukuyaisa ku Ministry of Health, UTH, OGSZ, Medical Council na abalundwe bumbi.",
+    "advocacyPoint3": "Policy briefs, press releases, na media kit.",
+    "advocacyPoint4": "Ifya kuyiisha na ba chief, ba church, na banakashi.",
+    "treatmentTitle": "Imisangano",
+    "treatmentTagline": "Banakashi bafikapo pa kubomya kwa fistula.",
+    "treatmentBody": "Tucita pamo na ba doctor na ba cipatala kwingilamo fistula repair.",
+    "treatmentPoint1": "Ifya kupatila ku UTH Women and Newborn Hospital.",
+    "treatmentPoint2": "Ifya kuyiisha ba doctor na ba nurse.",
+    "treatmentPoint3": "Ifya kupendulula ifya kubomya mu cipatala.",
+    "treatmentPoint4": "Ifya kupatila cipatala pa ifya kwingilamo.",
+    "integrationTitle": "Ukuyambitsa",
+    "integrationTagline": "Ukubwezelela dignity na lubilo.",
+    "integrationBody": "Ukuyambitsa ni cintu icibomya ukubwezelela mu bumi bwabwino.",
+    "integrationPoint1": "Physiotherapy na pelvic floor exercises.",
+    "integrationPoint2": "Counselling ya banamayo na fyashi yabo.",
+    "integrationPoint3": "Ifya kuyiisha pa business na kubomya money.",
+    "integrationPoint4": "Faces of Hope Campaign — peer support.",
+    "researchTitle": "Ifya kupendulula",
+    "researchTagline": "Ifya kuyiisha ifya kubomya.",
+    "researchBody": "Tucita pamo na universities ku kupendulula ifya fistula.",
+    "researchPoint1": "Ifya kucita pamo na LMMU, UNZA, na Copperbelt University.",
+    "researchPoint2": "Scientific symposia na ifya kuyiisha.",
+    "researchPoint3": "Ifya kupatila data kuli Ministry of Health."
+  },
+  "stakeholders": {
+    "title": "Abasambi nabalundwe",
+    "subtitle": "FCIAZ icita pamo na bafyashi, professional bodies, balongolwa, academia, na media.",
+    "governmentHeading": "Bafyashi",
+    "governmentIntro": "Bafyashi abasendama pa mimoneke ya banakashi.",
+    "professionalHeading": "Professional bodies",
+    "professionalIntro": "Ba doctor na ba nurse abasendama.",
+    "donorsHeading": "Abalundwe ba development",
+    "donorsIntro": "Abalundwe ba pa nseke abacita fistula work.",
+    "academicHeading": "Universities",
+    "academicIntro": "Universities iicita research na kuyiisha.",
+    "mediaHeading": "Media",
+    "mediaIntro": "Media izu Zambia abasendama bantu.",
+    "communityHeading": "Bafyashi",
+    "communityIntro": "Bantu pa fyashi abacita pa lubilo.",
+    "engagementHeading": "Ifya kucita pamo",
+    "engagementBody": "Nokuba organization yenu icita pa mimoneke ya banakashi, mutusumineni kuti tucite pamo."
+  },
+  "stakeholdersList": {
+    "ministryOfHealth": {
+      "name": "Ministry of Health, Zambia"
+    },
+    "provincialHealth": {
+      "name": "Provincial Health Offices"
+    },
+    "uth": {
+      "name": "UTH Women and Newborn Hospital"
+    },
+    "ogsz": {
+      "name": "Obstetrical and Gynaecological Society of Zambia (OGSZ)"
+    },
+    "medicalCouncil": {
+      "name": "Medical Council of Zambia"
+    },
+    "nursingCouncil": {
+      "name": "General Nursing Council of Zambia"
+    },
+    "fistulaFoundation": {
+      "name": "Fistula Foundation"
+    },
+    "unfpa": {
+      "name": "UNFPA Zambia"
+    },
+    "who": {
+      "name": "World Health Organization (Zambia Office)"
+    },
+    "unicef": {
+      "name": "UNICEF Zambia"
+    },
+    "jhpiego": {
+      "name": "Jhpiego Zambia"
+    },
+    "lmmu": {
+      "name": "Levy Mwanawasa Medical University"
+    },
+    "unza": {
+      "name": "University of Zambia"
+    },
+    "cbu": {
+      "name": "Copperbelt University"
+    },
+    "znbc": {
+      "name": "ZNBC"
+    },
+    "muvi": {
+      "name": "Muvi TV"
+    },
+    "prime": {
+      "name": "Prime TV"
+    },
+    "diamond": {
+      "name": "Diamond TV"
+    },
+    "dailyMail": {
+      "name": "Daily Mail"
+    },
+    "timesOfZambia": {
+      "name": "Times of Zambia"
+    },
+    "traditionalLeaders": {
+      "name": "Ba chief ba Zambia"
+    },
+    "churches": {
+      "name": "Ba church na faith-based organisations"
+    },
+    "womensGroups": {
+      "name": "Imisango ya banakashi"
+    },
+    "chw": {
+      "name": "Community Health Workers"
+    }
+  },
+  "getInvolved": {
+    "title": "Pati mu citenipo",
+    "subtitle": "Ifya kupatila FCIAZ — pa kuli, pa fyashi, noku organization.",
+    "donateTitle": "Tupa money",
+    "donateBody": "Money yenu iyakuyiisha ifya fistula, surgical supplies, na reintegration.",
+    "donateCta": "Mweni ifya kutupatila",
+    "volunteerTitle": "Ba umutuntulu",
+    "volunteerBody": "Abasambi batupatila pa events, translations, photography, na imisango.",
+    "volunteerCta": "Lembapo pa kusuka volunteer",
+    "partnerTitle": "Citani pamo na fwe",
+    "partnerBody": "Tulefwaya balundwe ba NGOs, ba cipatala, professional bodies, universities, na media.",
+    "partnerCta": "Tumiseni",
+    "advocateTitle": "Ba umukwashi wa kutetekela",
+    "advocateBody": "Patikeni ifya kwisa kwa benu pa social media, na kulongolola ifya kuyiisha mu fyashi yenu.",
+    "advocateCta": "Mweni ifya kusomfya",
+    "campaignsHeading": "Campaigns zikulu",
+    "campaignFacesTitle": "Faces of Hope",
+    "campaignFacesBody": "Ifya kubwezelela dignity kuli banakashi bafyala fistula — pa story (pa consent), videos, na ifya kubomya.",
+    "campaignDayTitle": "Lubilo lwa 23 May — International Day to End Obstetric Fistula",
+    "campaignDayBody": "Pa 23 May, FCIAZ icita pamo na nseke yonse. Mutafweni apa pa events na media."
+  },
+  "donate": {
+    "title": "Tupatileni pa FCIAZ",
+    "subtitle": "Money yenu yonse — nokuba yacepa — itwakuyiisha ifya kupatila banakashi ba Zambia.",
+    "sectionBankHeading": "Bank transfer",
+    "sectionBankBody": "Sengeni money mu account ya FCIAZ. Tutumineni slip ya deposit pa {email}.",
+    "bankNameLabel": "Bank",
+    "bankAccountNameLabel": "Lina lya account",
+    "bankAccountNumberLabel": "Nambala ya account",
+    "bankBranchLabel": "Branch",
+    "bankSwiftLabel": "SWIFT / BIC",
+    "sectionMobileHeading": "Mobile money",
+    "sectionMobileBody": "Tumini mobile money ku FCIAZ.",
+    "mtnNameLabel": "MTN MoMo merchant",
+    "mtnNumberLabel": "Nambala ya MTN MoMo",
+    "mtnStepsHeading": "Ifya kucita na MTN MoMo",
+    "mtnStep1": "Dial *303# (kapena *165#) pa MTN yenu, kapena iseni mu MoMo app.",
+    "mtnStep2": "Sala 'Send Money' kapena 'Pay Bill'.",
+    "mtnStep3": "Ingishe nambala ya FCIAZ MoMo.",
+    "mtnStep4": "Ingishe amount na PIN yenu.",
+    "mtnStep5": "Screenshot na kutuma pa {email}.",
+    "airtelNameLabel": "Airtel Money merchant",
+    "airtelNumberLabel": "Nambala ya Airtel Money",
+    "airtelStepsHeading": "Ifya kucita na Airtel Money",
+    "airtelStep1": "Dial *115# pa Airtel yenu, kapena iseni mu Airtel Money app.",
+    "airtelStep2": "Sala 'Send Money'.",
+    "airtelStep3": "Ingishe nambala ya FCIAZ Airtel Money.",
+    "airtelStep4": "Ingishe amount na PIN yenu.",
+    "airtelStep5": "Screenshot na kutuma pa {email}.",
+    "zamtelNameLabel": "Zamtel Money merchant",
+    "zamtelNumberLabel": "Nambala ya Zamtel Money",
+    "zamtelStepsHeading": "Ifya kucita na Zamtel Money",
+    "zamtelStep1": "Dial Zamtel Money USSD code pa Zamtel yenu, kapena iseni mu Zamtel Money app.",
+    "zamtelStep2": "Sala 'Send Money'.",
+    "zamtelStep3": "Ingishe nambala ya FCIAZ Zamtel Money.",
+    "zamtelStep4": "Ingishe amount na PIN yenu.",
+    "zamtelStep5": "Screenshot na kutuma pa {email}.",
+    "sectionOtherHeading": "Ifya kupatila kumbi",
+    "otherInKind": "In-kind donations (medical supplies, equipment, printing)",
+    "otherLegacy": "Legacy na planned giving",
+    "otherCorporate": "Corporate partnerships na CSR",
+    "otherContact": "Tumiseni kwa ifya yonse.",
+    "thankYouHeading": "Natotela",
+    "thankYouBody": "Money yenu itucitisha ifya kubomya banakashi ba Zambia.",
+    "transparencyHeading": "Transparency",
+    "transparencyBody": "FCIAZ ilomba ku citapo money pa kubomya. Annual statements yafwa kupwaikapo."
+  },
+  "resources": {
+    "title": "Ifya kusomfya",
+    "subtitle": "Ifya kuyiisha na posters zya kupendulula pa kubomya.",
+    "comingSoonHeading": "Ifya kuyiisha ichaisa lubilo",
+    "comingSoonBody": "Tuliko pa kupwaisha ifya kuyiisha fyapitamufya. Fya kuwaika apa.",
+    "mediaKitHeading": "Media kit",
+    "mediaKitBody": "Bajournalist balomba media kit pa kutuma email ku {email}.",
+    "categories": {
+      "factsheets": "Ifya kuyiisha",
+      "posters": "Posters",
+      "media": "Media kit"
+    }
+  },
+  "news": {
+    "title": "Amashiwi na ifya kupwaisha",
+    "subtitle": "Ifya kucitapo mu FCIAZ.",
+    "comingSoonHeading": "Amashiwi apya aliko pa kubomya",
+    "comingSoonBody": "Tuliko pa kucita amashiwi apya. Lembeni pa newsletter kuti mumanye lubilo.",
+    "subscribeCta": "Lembeni pa newsletter",
+    "archiveHeading": "Ifya yapita",
+    "item1Title": "Executive Committee meeting ya bubili ya citwa",
+    "item1Date": "2026-07-29",
+    "item1Excerpt": "Ba ExCo balombele pa ZRA, PACRA, na account ya bank, kabili balombele pa Fistula Foundation grant.",
+    "item2Title": "FCIAZ yatumine ifya kusendama ku Registrar",
+    "item2Date": "2026-07-22",
+    "item2Excerpt": "Apo ifya kupwaisha pa NRC, ifya kupwaisha fya bwaikwa pa portal.",
+    "item3Title": "FCIAZ yapangwa",
+    "item3Date": "2026-06-15",
+    "item3Excerpt": "Ba doctor ba Zambia, ba surgeon, na batungulwa ba mimoneke bacitapo umukuni wakwe wa kubomya fistula na ifya kupwaisha pa kufyalwa."
+  },
+  "contact": {
+    "title": "Tumiseni ku FCIAZ",
+    "subtitle": "Tufikileni pa secretariat, publicity secretary, kapena Executive Committee. Tulasubila mu bushiku busano.",
+    "formHeading": "Tumiseni umashiwi",
+    "formName": "Lina lyenu lonse",
+    "formEmail": "Email yenu",
+    "formSubject": "Cintu cenu",
+    "formSubjectPlaceholder": "e.g. Media, partnership, ifya kufwaya",
+    "formMessage": "Umashiwi wenu",
+    "formSubmit": "Tuma umashiwi",
+    "formSuccess": "Natotela. Tulasubila mu bushiku busano.",
+    "formError": "Tatatumine. Tumiseni pa {email}.",
+    "formValidationName": "Mwingishe lina lyenu.",
+    "formValidationEmail": "Mwingishe email yenu pa lubilo.",
+    "formValidationMessage": "Mwalembapo ifya kufwaya.",
+    "secretariatHeading": "Secretariat",
+    "secretariatBody": "Pa ifya kufwaya yonse.",
+    "emailLabel": "Email",
+    "phoneLabel": "Foni",
+    "addressLabel": "Adilesi",
+    "addressValue": "Lusaka, Zambia (ofesi iyakwishibikwa pa PACRA)",
+    "socialHeading": "Tulikontenipeni",
+    "socialBody": "Tulikontenipeni pa channels zya fwe pa ifya kupwaisha."
+  },
+  "volunteer": {
+    "title": "Ba umutuntulu wa FCIAZ",
+    "subtitle": "Patikeni ifya kwingilamo na lubilo lwenu.",
+    "formName": "Lina lyenu lonse",
+    "formEmail": "Email",
+    "formPhone": "Foni (na country code)",
+    "formLocation": "Umushi / Town",
+    "formSkills": "Ifya kumana na kwingilamo",
+    "formSkillsPlaceholder": "e.g. clinical, communications, translation, photography, fundraising",
+    "formAvailability": "Lubilo lwenu",
+    "formAvailabilityPlaceholder": "e.g. weekends, maola acimoti",
+    "formMessage": "Ifya kumbi",
+    "formMessagePlaceholder": "Optional",
+    "formSubmit": "Tuma application",
+    "formSuccess": "Natotela. Tulasubila mu bushiku ikumi.",
+    "formError": "Tatatumine. Tumiseni pa {email}.",
+    "formValidationName": "Mwingishe lina lyenu.",
+    "formValidationEmail": "Mwingishe email yenu pa lubilo.",
+    "whatHeading": "Ifya abasambi bacita",
+    "whatPoint1": "Bapatila pa events na outreach",
+    "whatPoint2": "Balembapo translations",
+    "whatPoint3": "Bapendulula photography na documentation",
+    "whatPoint4": "Bapendulula professional services",
+    "whatPoint5": "Bapendulula fundraising na partner engagement"
+  },
+  "notFound": {
+    "title": "Page tayipo",
+    "body": "Page enu tayipo.",
+    "cta": "Bwelelemo kuntanshi"
+  },
+  "languageSwitcher": {
+    "label": "Sala ululimi",
+    "current": "Ululimi lwa lelo: {locale}"
+  }
+}

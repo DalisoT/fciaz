@@ -1,0 +1,432 @@
+{
+  "_meta": {
+    "language": "Chinyanja",
+    "region": "Zambia — Eastern, Lusaka, Southern",
+    "translator": "Draft translation (AI-assisted). Dr. Tembo to verify clinical and culturally-sensitive phrasing.",
+    "note": "Medical terms (fistula, obstetric, reintegration) are commonly retained in English in Nyanja clinical practice. Where this file keeps English terms, the surrounding text is translated."
+  },
+  "common": {
+    "siteName": "FCIAZ",
+    "siteFullName": "Bungwe la Fistula ndi Mavuto pa Kubadwa mu Zambia",
+    "tagline": "Kuthandiza. Chithandizo. Kuyambitsidwa.",
+    "skipToContent": "Pitani pa nkhani",
+    "loading": "Tikuyembekeza…",
+    "language": "Chiyankhulo",
+    "back": "Bwererani",
+    "learnMore": "Phunzirani zambiri",
+    "readMore": "Werengani zambiri",
+    "viewAll": "Onani zonse",
+    "submit": "Tumizani",
+    "sending": "Tikuyitanitsa…",
+    "send": "Tumizani",
+    "download": "Tsitsani pa computer",
+    "openExternal": "Zikutuluka mu tabu yatsopano",
+    "comingSoon": "Zikubwera posachedwa"
+  },
+  "nav": {
+    "home": "Kunyumba",
+    "about": "Za Ife",
+    "whatWeDo": "Tinachita",
+    "stakeholders": "Othandizira",
+    "getInvolved": "Lowani",
+    "donate": "Perekani",
+    "resources": "Zida",
+    "news": "Nkhani",
+    "events": "Zochitika",
+    "contact": "Lumikizanani",
+    "volunteer": "Wopereka thandizo",
+    "openMenu": "Tsekulani menyu",
+    "closeMenu": "Tsekani menyu"
+  },
+  "footer": {
+    "rights": "Ufulu wonse wasungidwa.",
+    "quickLinks": "Maulalo ofunikira",
+    "contactUs": "Tumizani",
+    "followUs": "Titsatireni",
+    "newsletterHeading": "Khalani odziwa",
+    "newsletterDescription": "Landirani zosintha za fistula ndi ntchito za FCIAZ ku Zambia.",
+    "newsletterEmailPlaceholder": "email@yanu.com",
+    "newsletterSubmit": "Lembetsani",
+    "newsletterSuccess": "Zikomo pakulembetsa. Chonde onani inbox yanu.",
+    "newsletterError": "Pali vuto. Yesaninso posachedwa.",
+    "newsletterInvalidEmail": "Lowetsani email yanu molondola.",
+    "newsletterAlreadySubscribed": "Email inu yalembetsa kale.",
+    "addressHeading": "Ofesi yolembetsedwa",
+    "addressPlaceholder": "Lusaka, Zambia (ofesi idzatsimikizidwa pakulembetsa kwa PACRA)",
+    "socialFacebook": "Facebook",
+    "socialX": "X (Twitter)",
+    "socialLinkedIn": "LinkedIn",
+    "socialInstagram": "Instagram",
+    "socialYouTube": "YouTube"
+  },
+  "whatsapp": {
+    "label": "Lemberani FCIAZ pa WhatsApp",
+    "tooltip": "Tumizani"
+  },
+  "home": {
+    "heroEyebrow": "Bungwe la Fistula ndi Mavuto pa Kubadwa mu Zambia",
+    "heroTitle": "Mkazi aliyense ayenera kubadwa mwangwiro, kulandira chithandizo mwachangu, ulemu, ndi chiyembekezo.",
+    "heroSubtitle": "FCIAZ ndi bungwe la dziko lino lopereka thandizo pa fistula ndi mavuto pa kubadwa kudzera mu kuthandiza, chithandizo, kuyambitsidwa, ndi kafukufuku.",
+    "heroPrimaryCta": "Tiperekeni",
+    "heroSecondaryCta": "Phunzirani za fistula",
+    "statsTitle": "Ntchito yathu pa nambala",
+    "stat1Value": "3",
+    "stat1Label": "Mizati itatu — Kuthandiza, Chithandizo, Kuyambitsidwa",
+    "stat2Value": "2026",
+    "stat2Label": "Yapangidwa ndi madokotala a Zambia ndi atsogoleri azaumoyo",
+    "stat3Value": "10",
+    "stat3Label": "A Executive Committee ogwira ntchito ya bungwe",
+    "pillarsHeading": "Tinachita",
+    "pillarsSubheading": "Mizati itatu yolumikizana imatsogolera ntchito zonse za FCIAZ.",
+    "pillarAdvocacyTitle": "Kuthandiza",
+    "pillarAdvocacyDescription": "Timalimbikitsa anthu, kupanga mfundo za boma, ndikugwira ntchito ndi anthu, atsogoleri achikhalidwe, mipingo, ndi boma.",
+    "pillarTreatmentTitle": "Chithandizo",
+    "pillarTreatmentDescription": "Timathandiza amayi kuti apeze opaleshoni yabwino, timalimbikitsa zipatala, ndikugwira ntchito ndi madokotala.",
+    "pillarIntegrationTitle": "Kuyambitsidwa",
+    "pillarIntegrationDescription": "Timathandiza amayi kuyambitsidwa ndi physiotherapy, uphungu, maphunziro a ntchito, ndi gulu la anthu.",
+    "missionHeading": "Cholinga chathu",
+    "missionBody": "Kukhala mawu otsogolera ku Zambia polimbana ndi fistula ndi mavuto pa kubadwa kudzera mu kuthandiza, maubwenzi, maphunziro, chithandizo chabwino, kuyambitsidwa, ndi kafukufuku.",
+    "visionHeading": "Masomphenya athu",
+    "visionBody": "Zambia pamene mkazi aliyense sadzavutika pa kubadwa, ndipo aliyense wopulumuka adzalandira chisamaliro, ulemu, ndi mwayi.",
+    "boardSnapshotHeading": "Executive Committee",
+    "boardSnapshotSubheading": "Madokotala ndi atsogoleri otsogolera FCIAZ.",
+    "boardSnapshotCta": "Onani komiti yonse",
+    "ctaHeading": "Imirirani amayi a Zambia",
+    "ctaBody": "Kaya mupereka, mungakhale wolipira, mubwereke, kapena kungogawana uthenga wathu — muthandiza kuyambitsidwa kwa amayi.",
+    "ctaPrimaryButton": "Perekani lero",
+    "ctaSecondaryButton": "Khala wolipira"
+  },
+  "about": {
+    "title": "Za FCIAZ",
+    "subtitle": "Bungwe la dziko linalo lapangidwa kuti mkazi wa Zambia asavutike pa kubadwa.",
+    "historyHeading": "Momwe tinayambira",
+    "historyBody": "FCIAZ inapangidwa mu 2026 ndi madokotala a Zambia, ma surgeon, ndi atsogoleri azaumoyo omwe anaona kuti fistula ndi mavuto pa kubadwa — ngakhale amatha kupewedwa ndi kuchiritsidwa — akupitiriza kuvutitsa amayi ambiri mwakachetechete. Bungwe linapangidwa kuti mavutowa apeze mawu pa dziko lonse.",
+    "missionHeading": "Cholinga chathu",
+    "missionBody": "Kukhala mawu otsogolera ku Zambia polimbana ndi fistula ndi mavuto pa kubadwa kudzera mu kuthandiza, maubwenzi, maphunziro, chithandizo chabwino, kuyambitsidwa, ndi kafukufuku.",
+    "visionHeading": "Masomphenya athu",
+    "visionBody": "Zambia pamene mkazi aliyense sadzavutika pa kubadwa, ndipo aliyense wopulumuka adzalandira chisamaliro, ulemu, ndi mwayi.",
+    "valuesHeading": "Zimene timayimira",
+    "valuesSubheading": "Mfundo zisanu zimatsogolera zisankho zonse za FCIAZ.",
+    "valueDignityTitle": "Ulemu",
+    "valueDignityDescription": "Timaika patsogolo mawu, chisankho, ndi zachinsinsi za amayi opulumuka.",
+    "valueIntegrityTitle": "Ukhondo",
+    "valueIntegrityDescription": "Bungwe lowoneka, kasamalidwe ka ndalama, ndi maubwenzi owona.",
+    "valueEquityTitle": "Chilungamo",
+    "valueEquityDescription": "Kufika kwa amayi a kumidzi, mosasamala kanthu za maziko awo.",
+    "valueEvidenceTitle": "Uthenga wodziwika",
+    "valueEvidenceDescription": "Mapulogalamu okhazikika pa zamankhwala ndi kafukufuku wa umoyo.",
+    "valuePartnershipTitle": "Maubwenzi",
+    "valuePartnershipDescription": "Timagwira ntchito ndi boma, ma bungwe a akatswiri, ndi anthu.",
+    "boardHeading": "Executive Committee",
+    "boardSubheading": "Mamembala osankhidwa omwe akutsogolera FCIAZ.",
+    "memberRoleChair": "Mtsogoleri",
+    "memberRoleVice": "Mtsogoleri wam'mbuyo",
+    "memberRoleSecretaryGeneral": "Secretary General",
+    "memberRolePublicity": "Publicity Secretary",
+    "memberRoleTreasurer": "Treasurer",
+    "memberRoleCommittee": "Mlembi wa komiti",
+    "registrationHeading": "Malo pamalamulo",
+    "registrationBody": "FCIAZ ikulembetsa pansi pa NGO Act ya Zambia. Kulembetsa ndi Registrar, ZRA, ndi PACRA kukupitirira.",
+    "registrationPending": "Kulembetsa kukupitirira"
+  },
+  "board": {
+    "kasandaName": "Dr. Goshon Kasanda",
+    "kasandaBio": "Mtsogoleri. Dokotala waumoyo wa anthu ammudzi ku Zambia.",
+    "kaundaName": "Dr. Eugine Kaunda",
+    "kaundaBio": "Secretary General. Amatsogolera kulembetsa ndi komiti ya FCIAZ.",
+    "temboName": "Dr. Lucas Tembo",
+    "temboBio": "Publicity Secretary. Amatsogolera kuyankhulana, ulemu, ndi mawonekedwe a FCIAZ.",
+    "kawimbeName": "Dr. Alexander Kawimbe",
+    "kawimbeBio": "Mlembi wa komiti. Akulowetsa maphunziro a zamankhwala.",
+    "zuluName": "Dr. Paul Zulu",
+    "zuluBio": "Mlembi wa komiti. Amagwira ntchito ndi anthu ammudzi ndi atsogoleri achikhalidwe.",
+    "silwimbaName": "Dr. Willies Silwimba",
+    "silwimbaBio": "Mlembi wa komiti.",
+    "sichalweName": "Dr. Ngao Sichalwe",
+    "sichalweBio": "Mlembi wa komiti.",
+    "muwemeName": "Ms Natalia Muweme",
+    "muwemeBio": "Mlembi wa komiti.",
+    "ngosaName": "Dr. Chanda Ngosa",
+    "ngosaBio": "Mlembi wa komiti.",
+    "nondeName": "Dr. Royd Nonde",
+    "nondeBio": "Mlembi wa komiti."
+  },
+  "whatWeDo": {
+    "title": "Tinachita",
+    "subtitle": "FCIAZ imagwira ntchito m'mizati itatu yolumikizana. Iliyonse ndi yofunikira — palibe imodzi yokha yokwanira.",
+    "advocacyTitle": "Kuthandiza",
+    "advocacyTagline": "Kuika umoyo wa amayi patsogolo pa dziko.",
+    "advocacyBody": "Timalimbikitsa boma, media, ma bungwe a akatswiri, atsogoleri achikhalidwe, mipingo, ndi anthu kuti fistula ndi mavuto pa kubadwa azikhala pa agenda ya zaumoyo ya Zambia.",
+    "advocacyPoint1": "Maphunziro a pa dziko pa tsiku la 23 May (International Day to End Obstetric Fistula).",
+    "advocacyPoint2": "Ulendo wochereza ku Ministry of Health, UTH, OGSZ, Medical Council, ndi othandizira ena.",
+    "advocacyPoint3": "Mfundo za boma, press releases, ndi media kit.",
+    "advocacyPoint4": "Maphunziro ndi atsogoleri achikhalidwe, mipingo, ndi amayi.",
+    "treatmentTitle": "Chithandizo",
+    "treatmentTagline": "Kulumikiza amayi ndi chithandizo chabwino.",
+    "treatmentBody": "Timagwira ntchito ndi madokotala ndi zipatala kuti amayi apeze opaleshoni ndi chisamaliro chabwino.",
+    "treatmentPoint1": "Njira zotumizira amayi ku UTH Women and Newborn Hospital.",
+    "treatmentPoint2": "Maphunziro a madokotala ndi anesi.",
+    "treatmentPoint3": "Kuyang'anira ntchito ya chipatala ndi zotsatira za odwala.",
+    "treatmentPoint4": "Kupereka zipatala zida ndi katundu.",
+    "integrationTitle": "Kuyambitsidwa",
+    "integrationTagline": "Kubwezeretsa ulemu, odziimira, ndi chiyembekezo.",
+    "integrationBody": "Kuyambitsidwa ndi mlatho kuchokera pa opaleshoni kupita ku moyo wonse. Timagwira ntchito ndi a physiotherapy, ophunzitsa uphungu, ndi ogwira ntchito za chithandizo.",
+    "integrationPoint1": "Physiotherapy ndi masewero a pelvic floor.",
+    "integrationPoint2": "Uphungu wa amayi opulumuka ndi mabanja awo.",
+    "integrationPoint3": "Maphunziro a bizinesi ndi kupereka ndalama.",
+    "integrationPoint4": "Magulu a anthu, kuphatikiza Faces of Hope Campaign.",
+    "researchTitle": "Kafukufuku",
+    "researchTagline": "Kuphunzira zomwe zimagwira ntchito ndi kuzigawana.",
+    "researchBody": "Timagwira ntchito ndi masukulu ndi ofufuza kuti tipeze umboni wa kupewa, zotsatira za chithandizo, ndi zimene amayi opulumuka akumana nazo.",
+    "researchPoint1": "Maubwenzi ndi Levy Mwanawasa Medical University, UNZA, ndi Copperbelt University.",
+    "researchPoint2": "Misonkhano ya sayansi ndi zosintha za zamankhwala.",
+    "researchPoint3": "Kuyang'anira ndi kugawana data ndi Ministry of Health."
+  },
+  "stakeholders": {
+    "title": "Othandizira ndi anthu ogwirizana",
+    "subtitle": "FCIAZ imagwira ntchito ndi boma, ma bungwe a akatswiri, othandizira a pa nseke, masukulu, media, ndi atsogoleri ammudzi.",
+    "governmentHeading": "Boma",
+    "governmentIntro": "Mabungwe a boma omwe amayang'anira zaumoyo wa amayi.",
+    "professionalHeading": "Ma bungwe a akatswiri",
+    "professionalIntro": "Ma bungwe a madokotala ndi anesi.",
+    "donorsHeading": "Othandizira a pa nseke",
+    "donorsIntro": "Othandizira apadziko lonse ndi a mkati omwe amagwira ntchito ya fistula ndi umoyo wa amayi.",
+    "academicHeading": "Masukulu",
+    "academicIntro": "Masukulu omwe amapereka kafukufuku, maphunziro, ndi mphamvu ya zamankhwala.",
+    "mediaHeading": "Media",
+    "mediaIntro": "Ma media omwe amatithandiza kufika kwa anthu a Zambia.",
+    "communityHeading": "Anthu ammudzi",
+    "communityIntro": "Anthu a pa nthengo omwe amasintha maganizo ndi kufikira kwa anthu.",
+    "engagementHeading": "Momwe mungalumikizane",
+    "engagementBody": "Ngati bungwe lanu limagwira ntchito ya umoyo wa amayi kapena mavuto pa kubadwa, ndipo mukufuna kugwira ntchito nafe, chonde lumikizanani ndi Publicity Secretary."
+  },
+  "stakeholdersList": {
+    "ministryOfHealth": {
+      "name": "Ministry of Health, Zambia"
+    },
+    "provincialHealth": {
+      "name": "Provincial Health Offices"
+    },
+    "uth": {
+      "name": "UTH Women and Newborn Hospital"
+    },
+    "ogsz": {
+      "name": "Obstetrical and Gynaecological Society of Zambia (OGSZ)"
+    },
+    "medicalCouncil": {
+      "name": "Medical Council of Zambia"
+    },
+    "nursingCouncil": {
+      "name": "General Nursing Council of Zambia"
+    },
+    "fistulaFoundation": {
+      "name": "Fistula Foundation"
+    },
+    "unfpa": {
+      "name": "UNFPA Zambia"
+    },
+    "who": {
+      "name": "World Health Organization (Zambia Office)"
+    },
+    "unicef": {
+      "name": "UNICEF Zambia"
+    },
+    "jhpiego": {
+      "name": "Jhpiego Zambia"
+    },
+    "lmmu": {
+      "name": "Levy Mwanawasa Medical University"
+    },
+    "unza": {
+      "name": "University of Zambia"
+    },
+    "cbu": {
+      "name": "Copperbelt University"
+    },
+    "znbc": {
+      "name": "ZNBC"
+    },
+    "muvi": {
+      "name": "Muvi TV"
+    },
+    "prime": {
+      "name": "Prime TV"
+    },
+    "diamond": {
+      "name": "Diamond TV"
+    },
+    "dailyMail": {
+      "name": "Daily Mail"
+    },
+    "timesOfZambia": {
+      "name": "Times of Zambia"
+    },
+    "traditionalLeaders": {
+      "name": "Atsogoleri achikhalidwe (House of Chiefs)"
+    },
+    "churches": {
+      "name": "Mipingo ndi mabungwe a chikhulupiriro"
+    },
+    "womensGroups": {
+      "name": "Magulu a amayi ndi mabungwe a mmudzi"
+    },
+    "chw": {
+      "name": "Community Health Workers"
+    }
+  },
+  "getInvolved": {
+    "title": "Lowani",
+    "subtitle": "Pali njira zambiri zothandizira FCIAZ — kunyumba, mmudzi, kapena kudzera mu bungwe lanu.",
+    "donateTitle": "Perekani",
+    "donateBody": "Thandizo lanu limagwiritsidwa ntchito pa maphunziro, zipangizo za opaleshoni, maphunziro a madokotala, ndi kuyambitsidwa kwa amayi opulumuka.",
+    "donateCta": "Onani njira zoperekera",
+    "volunteerTitle": "Khala wolipira",
+    "volunteerBody": "Othandizira amathandiza pa zochitika, zomasulira, kufalitsa mauthenga, kujambula, ndi ntchito za akatswiri.",
+    "volunteerCta": "Lembetsani kukhala wolipira",
+    "partnerTitle": "Gwirani ntchito nafe",
+    "partnerBody": "Timakumana mogwira mtima ndi NGOs, zipatala, ma bungwe a akatswiri, masukulu, media, ndi makampani a Zambia.",
+    "partnerCta": "Tumizani",
+    "advocateTitle": "Khala mlendo wathandiza",
+    "advocateBody": "Gawanani zinthu zathu pa social media, khalani ndi maphunziro ammudzi, kapena kugawa zinthu za maphunziro pa netiweki yanu.",
+    "advocateCta": "Onani zida",
+    "campaignsHeading": "Maphunziro apadera",
+    "campaignFacesTitle": "Faces of Hope",
+    "campaignFacesBody": "Kubwezeretsa ulemu kwa amayi amoyo ndi fistula kudzera mu nthano (ndi chilolezo), makanema a maphunziro, ndi zotsatira za kuyambitsidwa.",
+    "campaignDayTitle": "Tsiku la 23 May — International Day to End Obstetric Fistula",
+    "campaignDayBody": "Pa 23 May, FCIAZ imagwirizana ndi anthu a pa dziko lonse kuti aphunzitse. Dikirani zochitika ndi media."
+  },
+  "donate": {
+    "title": "Perekani ku FCIAZ",
+    "subtitle": "Thandizo lililonse — lalikulu kapena laling'ono — limapangitsa kuti tithandize amayi a Zambia. Thandizo lonse limalandira kalata yolandila.",
+    "sectionBankHeading": "Bank transfer",
+    "sectionBankBody": "Gwiritsani ntchito zomwe zili pansipa kuti mupereke ndalama ku akaunti ya FCIAZ. Chonde tumizani slip ya deposit pa {email}.",
+    "bankNameLabel": "Banki",
+    "bankAccountNameLabel": "Dzina la akaunti",
+    "bankAccountNumberLabel": "Nambala ya akaunti",
+    "bankBranchLabel": "Nthambi",
+    "bankSwiftLabel": "SWIFT / BIC",
+    "sectionMobileHeading": "Mobile money",
+    "sectionMobileBody": "Tumizani mobile money ku FCIAZ. Titumizireni nambala ya chochitikacho.",
+    "mtnNameLabel": "MTN MoMo merchant",
+    "mtnNumberLabel": "Nambala ya MTN MoMo",
+    "mtnStepsHeading": "Momwe mungatumizire ndi MTN MoMo",
+    "mtnStep1": "Dial *303# (kapena *165#) pa MTN yanu, kapena tsekulani MoMo app.",
+    "mtnStep2": "Sankhani 'Send Money' kapena 'Pay Bill'.",
+    "mtnStep3": "Lowetsani nambala ya FCIAZ MoMo.",
+    "mtnStep4": "Lowetsani ndalama ndi PIN yanu.",
+    "mtnStep5": "Jambulani SMS yotsimikizira ndi kuitumiza pa {email}.",
+    "airtelNameLabel": "Airtel Money merchant",
+    "airtelNumberLabel": "Nambala ya Airtel Money",
+    "airtelStepsHeading": "Momwe mungatumizire ndi Airtel Money",
+    "airtelStep1": "Dial *115# pa Airtel yanu, kapena tsekulani Airtel Money app.",
+    "airtelStep2": "Sankhani 'Send Money'.",
+    "airtelStep3": "Lowetsani nambala ya FCIAZ Airtel Money.",
+    "airtelStep4": "Lowetsani ndalama ndi PIN yanu.",
+    "airtelStep5": "Jambulani SMS yotsimikizira ndi kuitumiza pa {email}.",
+    "zamtelNameLabel": "Zamtel Money merchant",
+    "zamtelNumberLabel": "Nambala ya Zamtel Money",
+    "zamtelStepsHeading": "Momwe mungatumizire ndi Zamtel Money",
+    "zamtelStep1": "Dial Zamtel Money USSD code pa Zamtel yanu, kapena tsekulani Zamtel Money app.",
+    "zamtelStep2": "Sankhani 'Send Money'.",
+    "zamtelStep3": "Lowetsani nambala ya FCIAZ Zamtel Money.",
+    "zamtelStep4": "Lowetsani ndalama ndi PIN yanu.",
+    "zamtelStep5": "Jambulani SMS yotsimikizira ndi kuitumiza pa {email}.",
+    "sectionOtherHeading": "Njira zina zoperekera",
+    "otherInKind": "Zopereka zinthu (zipangizo za zamankhwala, makina, kusindikiza)",
+    "otherLegacy": "Uthenga wa mbiri ndi kupereka kwa nthawi yayitali",
+    "otherCorporate": "Maubwenzi a makampani ndi CSR",
+    "otherContact": "Tumizani kukambirana za zinthu izi.",
+    "thankYouHeading": "Zikomo",
+    "thankYouBody": "Thandizo lanu limatithandiza kugwira ntchito ndi amayi, mabanja, ndi anthu a Zambia. Pamodzi timalepheretsa mavuto pa kubadwa.",
+    "transparencyHeading": "Ukhondo",
+    "transparencyBody": "FCIAZ imatsimikizira kugwiritsa ntchito ndalama mowoneka. Mauthenga a chaka chonse adzasindikizidwa tikangolembetsa ZRA ndi PACRA."
+  },
+  "resources": {
+    "title": "Zida",
+    "subtitle": "Zida zotsitsa, zolemba, ndi zida za media. Zoyenera kusindikiza ndi kugawa mmudzi.",
+    "comingSoonHeading": "Zida zikubwera posachedwa",
+    "comingSoonBody": "Tikukonzekeretsa zida zathu zoyamba. Zikavomerezedwa ndi Executive Committee, zidzawonekera apa.",
+    "mediaKitHeading": "Media kit",
+    "mediaKitBody": "Olemba nkhani ndi mabungwe othandizira amatha kupempha media kit pa {email}.",
+    "categories": {
+      "factsheets": "Zolemba",
+      "posters": "Zolemba za m'makoma",
+      "media": "Media kit"
+    }
+  },
+  "news": {
+    "title": "Nkhani ndi zosintha",
+    "subtitle": "Zosintha kuchokera ku mapulogalamu a FCIAZ, maphunziro, ndi ntchito za Executive Committee.",
+    "comingSoonHeading": "Nkhani zatsopano zikubwera posachedwa",
+    "comingSoonBody": "Tikukonzekeretsa nkhani zathu zoyamba. Lembetsani pa newsletter kudziwa.",
+    "subscribeCta": "Lembetsani pa newsletter",
+    "archiveHeading": "Zomwe zapita",
+    "item1Title": "Msonkhano wa chipiri wa Executive Committee wachitika",
+    "item1Date": "2026-07-29",
+    "item1Excerpt": "ExCo yavomereza dongosolo la ZRA, PACRA, ndi kutsegula akaunti ya banki, ndipo yavomereza kuyamba kukonza grant ya Fistula Foundation.",
+    "item2Title": "FCIAZ yatumiza zikalata za kulembetsa ku Registrar",
+    "item2Date": "2026-07-22",
+    "item2Excerpt": "Pambuyo pa ndemanga zoyambirira pa NRC, zikalata zovomerezeka zatumulidwanso. Mayankho a Registrar akuyembekezeka kumapeto kwa sabata.",
+    "item3Title": "Kupangidwa kwa Bungwe la Fistula ndi Mavuto pa Kubadwa mu Zambia",
+    "item3Date": "2026-06-15",
+    "item3Excerpt": "Madokotala a Zambia, ma surgeon, ndi atsogoleri azaumoyo aphatikiza kuti apange bungwe la dziko lodzipereka ku kuthandiza, chithandizo, ndi kuyambitsidwa kwa amayi amoyo ndi fistula ndi mavuto pa kubadwa."
+  },
+  "contact": {
+    "title": "Lumikizanani ndi FCIAZ",
+    "subtitle": "Fikirani Secretariat, Publicity Secretary, kapena Executive Committee. Timayankha mkati mwa masiku asanu a ntchito.",
+    "formHeading": "Titumizeni uthenga",
+    "formName": "Dzina lanu lonse",
+    "formEmail": "Email yanu",
+    "formSubject": "Mutu",
+    "formSubjectPlaceholder": "e.g. Media, ubwenzi, funso",
+    "formMessage": "Uthenga wanu",
+    "formSubmit": "Tumizani uthenga",
+    "formSuccess": "Zikomo — uthenga wanu watumizidwa. Tidzayankha mkati mwa masiku asanu a ntchito.",
+    "formError": "Sitingathe kutumiza uthenga wanu. Chonde tumizani pa {email}.",
+    "formValidationName": "Chonde lowetsani dzina lanu.",
+    "formValidationEmail": "Chonde lowetsani email yanu molondola.",
+    "formValidationMessage": "Chonde lembani uthenga.",
+    "secretariatHeading": "Secretariat",
+    "secretariatBody": "Pa mafunso onse, maubwenzi, ndi zikalata.",
+    "emailLabel": "Email",
+    "phoneLabel": "Foni",
+    "addressLabel": "Adilesi",
+    "addressValue": "Lusaka, Zambia (ofesi idzatsimikizidwa pakulembetsa kwa PACRA)",
+    "socialHeading": "Lumikizanani nafe",
+    "socialBody": "Titsateni pa ma channel athu a official kuti muwone zosintha zatsopano."
+  },
+  "volunteer": {
+    "title": "Khala wolipira wa FCIAZ",
+    "subtitle": "Gawani luso lanu, nthawi yanu, ndi changu chanu. Tidzakukwanitsani ndi ntchito yoyenera mphamvu zanu.",
+    "formName": "Dzina lanu lonse",
+    "formEmail": "Email",
+    "formPhone": "Foni (ndi nambala ya dziko)",
+    "formLocation": "Mzinda / Mzinda",
+    "formSkills": "Luso ndi luso",
+    "formSkillsPlaceholder": "e.g. clinical, communications, translation, photography, fundraising",
+    "formAvailability": "Nthawi imapezeka",
+    "formAvailabilityPlaceholder": "e.g. mapeto a sabata, maola angapo pa sabata",
+    "formMessage": "Chilichonse chimene tikuyenera kudziwa?",
+    "formMessagePlaceholder": "Mwa ufulu",
+    "formSubmit": "Tumizani pempho",
+    "formSuccess": "Zikomo polembetsa. Tidzalumikizana mkati mwa masiku khumi a ntchito.",
+    "formError": "Sitingathe kutumiza. Chonde tumizani pa {email}.",
+    "formValidationName": "Chonde lowetsani dzina lanu.",
+    "formValidationEmail": "Chonde lowetsani email yanu molondola.",
+    "whatHeading": "Zimene othandizira amachita",
+    "whatPoint1": "Kuthandiza pa zochitika ndi maphunziro",
+    "whatPoint2": "Kumasulira zida",
+    "whatPoint3": "Kujambula ndi kulemba zochitika",
+    "whatPoint4": "Kupereka ntchito za akatswiri",
+    "whatPoint5": "Kuthandiza ndi fundraising ndi ubwenzi"
+  },
+  "notFound": {
+    "title": "Tsamba silikupezeka",
+    "body": "Tsamba mukufuna silikupezeka kapena lasunthidwa.",
+    "cta": "Bwererani kunyumba"
+  },
+  "languageSwitcher": {
+    "label": "Sankhani chiyankhulo",
+    "current": "Chiyankhulo cha tsopano: {locale}"
+  }
+}
