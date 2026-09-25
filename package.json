@@ -9,7 +9,11 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "clean": "node -e \"const fs=require('fs'); fs.rmSync('.next',{recursive:true,force:true}); console.log('Removed .next');\"",
-    "clean:dev": "node -e \"const fs=require('fs'); fs.rmSync('.next',{recursive:true,force:true}); console.log('Removed .next — now run: npm run dev');\""
+    "clean:dev": "node -e \"const fs=require('fs'); fs.rmSync('.next',{recursive:true,force:true}); console.log('Removed .next — now run: npm run dev');\"",
+    "preview": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && opennextjs-cloudflare deploy",
+    "cf:build": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion",
+    "cf:clean": "node -e \"const fs=require('fs'); fs.rmSync('.open-next',{recursive:true,force:true}); console.log('Removed .open-next');\""
   },
   "dependencies": {
     "@sanity/vision": "^3.62.3",
@@ -28,6 +32,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.6",
     "@types/node": "^20.16.11",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
@@ -36,7 +41,8 @@
     "tailwindcss": "^3.4.13",
     "typescript": "^5.6.3",
     "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.15"
+    "eslint-config-next": "14.2.15",
+    "wrangler": "^4.0.0"
   },
   "resolutions": {
     "styled-components": "^6.1.13",
